@@ -1,7 +1,7 @@
 # Una cadena vacía entrega un valor False
 # condicion = ''
 
-condicion = 123
+condicion = False
 
 
 if condicion == True:
