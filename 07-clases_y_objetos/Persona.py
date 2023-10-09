@@ -9,16 +9,22 @@ class Persona:
     def __init__(self, _nombre, _apellido, _edad):
         self.nombre = _nombre
         self.apellido = _apellido
-        self.edad = edad
+        self.edad = _edad
 
 
 # Inicializando un objeto de la clase
 persona1 = Persona("César", "Vargas", 43)
 
-# print(type(Persona))
-# print(persona1.nombre)
-# print(persona1.apellido)
-# print(persona1.edad)
+persona2 = Persona("Verónica", "Cortez", 43)
+
+
+def imprimir(nombre, apellido, edad):
+    return f"""
+- Nombre: {nombre} 
+- Apellido:{apellido} 
+- Edad:{edad} 
+"""
+
 
 print(
     f"""
@@ -27,3 +33,6 @@ print(
     Edad: {persona1.edad}
     """
 )
+
+print(imprimir(persona1.nombre, persona1.apellido, persona1.edad))
+print(imprimir(persona2.nombre, persona2.apellido, persona2.edad))
