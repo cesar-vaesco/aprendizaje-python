@@ -11,7 +11,7 @@ class Persona:
         self.apellido = _apellido
         self.edad = _edad
 
-# la palabra self pasa la referencia de los valores asignados a los atributos de la clase
+    # la palabra self pasa la referencia de los valores asignados a los atributos de la clase
     def mostrar_detalle(self):
         return f"""
 - Nombre: {self.nombre} 
@@ -21,9 +21,9 @@ class Persona:
 
 
 # Inicializando un objeto de la clase
-persona1 = Persona("César", "Vargas", 43)
-
+persona1 = Persona("César", "Varela", 43)
 persona2 = Persona("Verónica", "Cortez", 43)
+persona3 = Persona("Vanessa", "Varela Corrales", 15)
 
 
 print(
@@ -39,8 +39,16 @@ print(
 print("\nCambiando los valores del objeto 1")
 
 persona1.nombre = "Gloria"
-persona1.apellido = "Vargas Cortez"
+persona1.apellido = "Varela Corrales"
 persona1.edad = 22
+persona1.telefono = "556581111"
+
+# Mandando llamar el méto mostrar_detalle usando
+# la referencia de un objeto a traves la llamada de la clase
+# -->  print(Persona.mostrar_detalle(persona3))
 
 print(persona1.mostrar_detalle())
 print(persona2.mostrar_detalle())
+print(Persona.mostrar_detalle(persona3))
+
+print(f"Telefono instancia 1:  {persona1.telefono}")
