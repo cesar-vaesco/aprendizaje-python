@@ -6,14 +6,14 @@ es inicializar los atributos del objeto que creamos.
 
 class Persona:
     # Atribuitos de clase
-    def __init__(self):
-        self.nombre = "César"
-        self.apellido = "Vargas"
-        self.edad = 43
+    def __init__(self, _nombre, _apellido, _edad):
+        self.nombre = _nombre
+        self.apellido = _apellido
+        self.edad = edad
 
 
 # Inicializando un objeto de la clase
-persona1 = Persona()
+persona1 = Persona("César", "Vargas", 43)
 
 # print(type(Persona))
 # print(persona1.nombre)
@@ -22,8 +22,8 @@ persona1 = Persona()
 
 print(
     f"""
-      Nombre: {persona1.nombre}
-      Apellido: {persona1.apellido}
-      Edad: {persona1.edad}
-      """
+    Nombre: {persona1.nombre}
+    Apellido: {persona1.apellido}
+    Edad: {persona1.edad}
+    """
 )
