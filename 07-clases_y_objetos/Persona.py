@@ -10,6 +10,7 @@ class Persona:
         self.nombre = _nombre
         self.apellido = _apellido
         self.edad = _edad
+      
 
 
 # Inicializando un objeto de la clase
@@ -21,18 +22,26 @@ persona2 = Persona("Verónica", "Cortez", 43)
 def imprimir(nombre, apellido, edad):
     return f"""
 - Nombre: {nombre} 
-- Apellido:{apellido} 
-- Edad:{edad} 
+- Apellido: {apellido} 
+- Edad: {edad} 
 """
 
 
 print(
     f"""
+    --- Objeto 1 ---
     Nombre: {persona1.nombre}
     Apellido: {persona1.apellido}
     Edad: {persona1.edad}
     """
 )
+
+
+print("\nCambiando los valores del objeto 1")
+
+persona1.nombre = "Gloria"
+persona1.apellido = "Vargas Cortez"
+persona1.edad = 22
 
 print(imprimir(persona1.nombre, persona1.apellido, persona1.edad))
 print(imprimir(persona2.nombre, persona2.apellido, persona2.edad))
