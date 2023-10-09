@@ -10,21 +10,20 @@ class Persona:
         self.nombre = _nombre
         self.apellido = _apellido
         self.edad = _edad
-      
+
+# la palabra self pasa la referencia de los valores asignados a los atributos de la clase
+    def mostrar_detalle(self):
+        return f"""
+- Nombre: {self.nombre} 
+- Apellido: {self.apellido} 
+- Edad: {self.edad} 
+                """
 
 
 # Inicializando un objeto de la clase
 persona1 = Persona("César", "Vargas", 43)
 
 persona2 = Persona("Verónica", "Cortez", 43)
-
-
-def imprimir(nombre, apellido, edad):
-    return f"""
-- Nombre: {nombre} 
-- Apellido: {apellido} 
-- Edad: {edad} 
-"""
 
 
 print(
@@ -43,5 +42,5 @@ persona1.nombre = "Gloria"
 persona1.apellido = "Vargas Cortez"
 persona1.edad = 22
 
-print(imprimir(persona1.nombre, persona1.apellido, persona1.edad))
-print(imprimir(persona2.nombre, persona2.apellido, persona2.edad))
+print(persona1.mostrar_detalle())
+print(persona2.mostrar_detalle())
