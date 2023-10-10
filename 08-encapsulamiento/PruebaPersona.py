@@ -7,7 +7,8 @@
 
 from Persona import Persona
 
-
 persona1 = Persona("Víctor","Mejía", 16)
 
 print(persona1.mostrar_detalle())
+
+print(__name__)

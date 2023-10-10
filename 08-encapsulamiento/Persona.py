@@ -43,9 +43,9 @@ class Persona:
     # Uso de getter para mostrar los datos de los atributos de los objetos instanciados
     def mostrar_detalle(self):
         return f"""
-                    - Nombre: {self._nombre} 
-                    - Apellido: {self._apellido} 
-                    - Edad: {self._edad}
+- Nombre: {self._nombre} 
+- Apellido: {self._apellido} 
+- Edad: {self._edad}
                 """
 
 
@@ -62,5 +62,15 @@ persona1.apellido = "Cordoba Juaréz"
 persona1.edad = 18
 
 
-print(persona1.mostrar_detalle())
-# print(persona2.mostrar_detalle())
+# Comprobación de módulo principal "main"
+# La comprobación sirve para probar el código y sobretodo sí es
+# un módulo que se va a importar
+# Al ejecutar la clase se va a ejecutar el código
+# pero al importar el módulo/clase, el código que se encuentra
+# en este módulo ya no se va a importar
+
+if __name__ == "__main__":
+    print(persona1.mostrar_detalle())
+    # print(persona2.mostrar_detalle())
+
+    print(__name__)
