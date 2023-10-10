@@ -16,7 +16,6 @@ class Persona:
     #  Declaración de métodos getters
     @property
     def nombre(self):
-        print("Llamando el método get")
         return self._nombre
 
     @property
@@ -30,7 +29,6 @@ class Persona:
     # Declaración de métodos setter
     @nombre.setter
     def nombre(self, nombre):
-        print("Llamando el método set")
         self._nombre = nombre
 
     @apellido.setter
@@ -42,6 +40,7 @@ class Persona:
         self._edad = edad
 
     # la palabra self pasa la referencia de los valores asignados a los atributos de la clase
+    # Uso de getter para mostrar los datos de los atributos de los objetos instanciados
     def mostrar_detalle(self):
         return f"""
                     - Nombre: {self._nombre} 
@@ -57,10 +56,11 @@ persona2 = Persona("Vanessa", "Varela Corrales", 15)
 
 # print(persona1.nombre())
 
-print(persona1.nombre)
+# Uso de métodos set para modificar valores de los atributos
 persona1.nombre = "Veróniquilla"
-print(persona1.nombre)
+persona1.apellido = "Cordoba Juaréz"
+persona1.edad = 18
 
 
-# print(persona1.mostrar_detalle())
+print(persona1.mostrar_detalle())
 # print(persona2.mostrar_detalle())
