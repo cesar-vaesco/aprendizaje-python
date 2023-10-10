@@ -39,6 +39,11 @@ class Persona:
     def edad(self, edad):
         self._edad = edad
 
+    # Método del borra todos los objetos creados al terminar la ejecución del programa
+    # Sí se importa la clase y se usa en otro módulo, em ambas al usarse destruye los objetos creados
+    def __del__(self):
+        print(f"Persona: {self.nombre} {self.apellido}")
+
     # la palabra self pasa la referencia de los valores asignados a los atributos de la clase
     # Uso de getter para mostrar los datos de los atributos de los objetos instanciados
     def mostrar_detalle(self):
