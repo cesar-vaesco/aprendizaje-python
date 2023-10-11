@@ -1569,5 +1569,23 @@
         "peekOfCode": "rectangulo1 = Rectangulo(alto=9, ancho=5, color=\"Azul\")\n# print(cuadrado1._alto)\n# print(cuadrado1._ancho)\n# print(cuadrado1._color)\n# print(cuadrado1.calcular_area())\nprint(\" Creación objeto cuadrado \".center(50, \"-\"))\nprint(cuadrado1)\nprint(f\"Calculo del área cuadrado: {cuadrado1.calcular_area()}\")\nprint(\" Creación objeto rectángulo \".center(50, \"-\"))\nprint(rectangulo1)",
         "detail": "10-herencia-multiple.test_figura_geometrica",
         "documentation": {}
+    },
+    {
+        "label": "MiClase",
+        "kind": 6,
+        "importPath": "11-contexto-estatico-clases.MiClase",
+        "description": "11-contexto-estatico-clases.MiClase",
+        "peekOfCode": "class MiClase:\n    variable_clase = \"Valor variable clase\"\n    def __init__(self, variable_instancia):\n        self.variable_instancia = variable_instancia\n# Accediendo variable de clase\nprint(MiClase.variable_clase)\n# Accediendo variable de clase\nmi_clase = MiClase(\"Valor variable de instancia\")\nprint(mi_clase.variable_instancia)",
+        "detail": "11-contexto-estatico-clases.MiClase",
+        "documentation": {}
+    },
+    {
+        "label": "mi_clase",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.MiClase",
+        "description": "11-contexto-estatico-clases.MiClase",
+        "peekOfCode": "mi_clase = MiClase(\"Valor variable de instancia\")\nprint(mi_clase.variable_instancia)",
+        "detail": "11-contexto-estatico-clases.MiClase",
+        "documentation": {}
     }
 ]
