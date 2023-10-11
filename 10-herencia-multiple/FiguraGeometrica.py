@@ -5,7 +5,7 @@ class FiguraGeometrica:
 
     # Métodos Getters
     @property
-    def ancho(Self):
+    def ancho(self):
         return self._ancho
 
     @property
