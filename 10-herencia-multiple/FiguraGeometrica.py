@@ -1,7 +1,18 @@
 class FiguraGeometrica:
     def __init__(self, ancho, alto):
-        self._ancho = ancho
-        self._alto = alto
+        if self._validar_valor(ancho):
+            # if 0 < ancho < 10:
+            self._ancho = ancho
+        else:
+            self._ancho = 0
+            print(f"Valor erroneo ancho: {ancho}")
+
+        if self._validar_valor(alto):
+            # if 0 < alto < 10:
+            self._alto = alto
+        else:
+            print(f"Valor erroneo alto: {alto}")
+            self._alto = 0
 
     # Métodos Getters
     @property
@@ -15,15 +26,24 @@ class FiguraGeometrica:
     # Métodos Setters
     @ancho.setter
     def ancho(self, ancho):
-        self._ancho = ancho
+        if self._validar_valor(ancho):
+            self._ancho = ancho
+        else:
+            print(f"Valor erroneo ancho: {ancho}")
 
     @alto.setter
     def alto(self, alto):
-        self._alto = alto
+        if self._validar_valor(alto):
+            self._alto = alto
+        else:
+            print(f"Valor erroneo alto: {alto}")
 
     # Método String str
     def __str__(self):
         return f"- Ancho: {self._ancho} - Alto: {self._alto}"
+
+    def _validar_valor(self, valor):
+        return True if 0 < valor < 10 else False
 
 
 # Probar clase
