@@ -1,3 +1,7 @@
+# Convertir clase en clase abstracta
+from abc import ABC, abstractmethod
+
+
 class FiguraGeometrica:
     def __init__(self, ancho, alto):
         if self._validar_valor(ancho):
@@ -38,6 +42,11 @@ class FiguraGeometrica:
         else:
             print(f"Valor erroneo alto: {alto}")
 
+    # Método abstracto
+    @abstractmethod
+    def calcular_area(self):
+        pass
+
     # Método String str
     def __str__(self):
         return f"- Ancho: {self._ancho} - Alto: {self._alto}"
@@ -49,6 +58,6 @@ class FiguraGeometrica:
 # Probar clase
 
 if __name__ == "__main__":
-    fg1 = FiguraGeometrica(10, 5)
+    fg1 = FiguraGeometrica(9, 5)
 
     print(fg1)

@@ -1,8 +1,11 @@
 from Cuadrado import Cuadrado
+from FiguraGeometrica import FiguraGeometrica
 from Rectangulo import Rectangulo
 
+fig = FiguraGeometrica(1, 1)
+
 cuadrado1 = Cuadrado(lado=5, color="Rojo")
-rectangulo1 = Rectangulo(alto=10, ancho=15, color="Azul")
+rectangulo1 = Rectangulo(alto=9, ancho=5, color="Azul")
 
 
 # print(cuadrado1._alto)

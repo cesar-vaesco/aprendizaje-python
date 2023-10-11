@@ -1,0 +1,1573 @@
+[
+    {
+        "label": "Persona",
+        "importPath": "Persona",
+        "description": "Persona",
+        "isExtraImport": true,
+        "detail": "Persona",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "Persona",
+        "description": "Persona",
+        "isExtraImport": true,
+        "detail": "Persona",
+        "documentation": {}
+    },
+    {
+        "label": "Vehiculo",
+        "importPath": "Vehiculo",
+        "description": "Vehiculo",
+        "isExtraImport": true,
+        "detail": "Vehiculo",
+        "documentation": {}
+    },
+    {
+        "label": "Vehiculo",
+        "importPath": "Vehiculo",
+        "description": "Vehiculo",
+        "isExtraImport": true,
+        "detail": "Vehiculo",
+        "documentation": {}
+    },
+    {
+        "label": "FiguraGeometrica",
+        "importPath": "FiguraGeometrica",
+        "description": "FiguraGeometrica",
+        "isExtraImport": true,
+        "detail": "FiguraGeometrica",
+        "documentation": {}
+    },
+    {
+        "label": "FiguraGeometrica",
+        "importPath": "FiguraGeometrica",
+        "description": "FiguraGeometrica",
+        "isExtraImport": true,
+        "detail": "FiguraGeometrica",
+        "documentation": {}
+    },
+    {
+        "label": "FiguraGeometrica",
+        "importPath": "FiguraGeometrica",
+        "description": "FiguraGeometrica",
+        "isExtraImport": true,
+        "detail": "FiguraGeometrica",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "importPath": "Color",
+        "description": "Color",
+        "isExtraImport": true,
+        "detail": "Color",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "importPath": "Color",
+        "description": "Color",
+        "isExtraImport": true,
+        "detail": "Color",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "Cuadrado",
+        "importPath": "Cuadrado",
+        "description": "Cuadrado",
+        "isExtraImport": true,
+        "detail": "Cuadrado",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangulo",
+        "importPath": "Rectangulo",
+        "description": "Rectangulo",
+        "isExtraImport": true,
+        "detail": "Rectangulo",
+        "documentation": {}
+    },
+    {
+        "label": "califica",
+        "kind": 5,
+        "importPath": "01-tipos-datos.ejercicio-funcion-input",
+        "description": "01-tipos-datos.ejercicio-funcion-input",
+        "peekOfCode": "califica = input(\"Califica tu día del 1 al 10...\")\ncalifica = int(califica)\nif califica > 10 or califica < 1:\n    print(\"Calificaste tu día con un valor fuera de rango\")\nelse:\n    print(\"A mí día lo califico con un \", califica)",
+        "detail": "01-tipos-datos.ejercicio-funcion-input",
+        "documentation": {}
+    },
+    {
+        "label": "califica",
+        "kind": 5,
+        "importPath": "01-tipos-datos.ejercicio-funcion-input",
+        "description": "01-tipos-datos.ejercicio-funcion-input",
+        "peekOfCode": "califica = int(califica)\nif califica > 10 or califica < 1:\n    print(\"Calificaste tu día con un valor fuera de rango\")\nelse:\n    print(\"A mí día lo califico con un \", califica)",
+        "detail": "01-tipos-datos.ejercicio-funcion-input",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "01-tipos-datos.ejercicio-variables",
+        "description": "01-tipos-datos.ejercicio-variables",
+        "peekOfCode": "nombre = \"Correo Gmail Mensajería\"\ntelefono = 5568000916\ncorreo = \"correo@gmail.com\"\nprint(\"Nombre: \", nombre)\nprint(\"Teléfono: \", telefono)\nprint(\"Correo: \", correo)",
+        "detail": "01-tipos-datos.ejercicio-variables",
+        "documentation": {}
+    },
+    {
+        "label": "telefono",
+        "kind": 5,
+        "importPath": "01-tipos-datos.ejercicio-variables",
+        "description": "01-tipos-datos.ejercicio-variables",
+        "peekOfCode": "telefono = 5568000916\ncorreo = \"correo@gmail.com\"\nprint(\"Nombre: \", nombre)\nprint(\"Teléfono: \", telefono)\nprint(\"Correo: \", correo)",
+        "detail": "01-tipos-datos.ejercicio-variables",
+        "documentation": {}
+    },
+    {
+        "label": "correo",
+        "kind": 5,
+        "importPath": "01-tipos-datos.ejercicio-variables",
+        "description": "01-tipos-datos.ejercicio-variables",
+        "peekOfCode": "correo = \"correo@gmail.com\"\nprint(\"Nombre: \", nombre)\nprint(\"Teléfono: \", telefono)\nprint(\"Correo: \", correo)",
+        "detail": "01-tipos-datos.ejercicio-variables",
+        "documentation": {}
+    },
+    {
+        "label": "titulo",
+        "kind": 5,
+        "importPath": "01-tipos-datos.ejercicio2-funcion-input",
+        "description": "01-tipos-datos.ejercicio2-funcion-input",
+        "peekOfCode": "titulo = input(\"\\nTitulo: \")\nautor = input(\"Autor: \")\nprint(\"El título ingresado fue: \", titulo)\nprint(\"El autor del libro '\" + titulo + \"' es\", autor)",
+        "detail": "01-tipos-datos.ejercicio2-funcion-input",
+        "documentation": {}
+    },
+    {
+        "label": "autor",
+        "kind": 5,
+        "importPath": "01-tipos-datos.ejercicio2-funcion-input",
+        "description": "01-tipos-datos.ejercicio2-funcion-input",
+        "peekOfCode": "autor = input(\"Autor: \")\nprint(\"El título ingresado fue: \", titulo)\nprint(\"El autor del libro '\" + titulo + \"' es\", autor)",
+        "detail": "01-tipos-datos.ejercicio2-funcion-input",
+        "documentation": {}
+    },
+    {
+        "label": "entrada",
+        "kind": 5,
+        "importPath": "01-tipos-datos.entrada-datos",
+        "description": "01-tipos-datos.entrada-datos",
+        "peekOfCode": "entrada = input(\"Ingresa un valor: \")\nprint(\"El valor ingresado fue:\", entrada)\nprint(\"\\n\\tContinua el programa...\")\nvalor = input(\"Ingresa un valor númerico: \\n\")\nprint(\"Valor ingresado:\", valor)\nprint(\"Tipo de dato de la variable valor: \", type(valor))\nprint(\"Casteo de la variable valor....\")\nvalor = float(valor)\nprint(\"Valor ingresado:\", valor)\nprint(\"Tipo de dato de la variable valor: \", type(valor))",
+        "detail": "01-tipos-datos.entrada-datos",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "01-tipos-datos.entrada-datos",
+        "description": "01-tipos-datos.entrada-datos",
+        "peekOfCode": "valor = input(\"Ingresa un valor númerico: \\n\")\nprint(\"Valor ingresado:\", valor)\nprint(\"Tipo de dato de la variable valor: \", type(valor))\nprint(\"Casteo de la variable valor....\")\nvalor = float(valor)\nprint(\"Valor ingresado:\", valor)\nprint(\"Tipo de dato de la variable valor: \", type(valor))\nprint(\"\\tSuma de valores...\")\nnumero_1=input(\"Ingresa 1er valor: \")\nnumero_2=input(\"Ingresa 2do valor: \")",
+        "detail": "01-tipos-datos.entrada-datos",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "01-tipos-datos.entrada-datos",
+        "description": "01-tipos-datos.entrada-datos",
+        "peekOfCode": "valor = float(valor)\nprint(\"Valor ingresado:\", valor)\nprint(\"Tipo de dato de la variable valor: \", type(valor))\nprint(\"\\tSuma de valores...\")\nnumero_1=input(\"Ingresa 1er valor: \")\nnumero_2=input(\"Ingresa 2do valor: \")\nresultado = int(numero_1) + int(numero_2)\nprint(\"Resultado:\", resultado)\nprint(\"\\n\\tFin del programa...\")",
+        "detail": "01-tipos-datos.entrada-datos",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "01-tipos-datos.entrada-datos",
+        "description": "01-tipos-datos.entrada-datos",
+        "peekOfCode": "resultado = int(numero_1) + int(numero_2)\nprint(\"Resultado:\", resultado)\nprint(\"\\n\\tFin del programa...\")",
+        "detail": "01-tipos-datos.entrada-datos",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01-tipos-datos.tipos-datos",
+        "description": "01-tipos-datos.tipos-datos",
+        "peekOfCode": "x = 10\ny: float = 10.5\nsaludo: str = \"Hola!\"\nvalor_bool = True\nprint(x)\nprint(y)\nprint(saludo)\nprint(valor_bool)\nprint(\"X tipo dato: \", type(x))\nprint(\"Saludo tipo dato: \", type(saludo))",
+        "detail": "01-tipos-datos.tipos-datos",
+        "documentation": {}
+    },
+    {
+        "label": "valor_bool",
+        "kind": 5,
+        "importPath": "01-tipos-datos.tipos-datos",
+        "description": "01-tipos-datos.tipos-datos",
+        "peekOfCode": "valor_bool = True\nprint(x)\nprint(y)\nprint(saludo)\nprint(valor_bool)\nprint(\"X tipo dato: \", type(x))\nprint(\"Saludo tipo dato: \", type(saludo))\nprint(\"y tipo dato: \", type(y))\nprint(\"Booleado tipo dato: \", type(valor_bool))",
+        "detail": "01-tipos-datos.tipos-datos",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01-tipos-datos.variable-direccion-memoria",
+        "description": "01-tipos-datos.variable-direccion-memoria",
+        "peekOfCode": "x = 10\ny = 2\nz = x + y\nprint(x)\nprint(y)\nprint(z)\nprint(id(x))\nprint(id(y))\nprint(id(z))",
+        "detail": "01-tipos-datos.variable-direccion-memoria",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01-tipos-datos.variable-direccion-memoria",
+        "description": "01-tipos-datos.variable-direccion-memoria",
+        "peekOfCode": "y = 2\nz = x + y\nprint(x)\nprint(y)\nprint(z)\nprint(id(x))\nprint(id(y))\nprint(id(z))",
+        "detail": "01-tipos-datos.variable-direccion-memoria",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01-tipos-datos.variable-direccion-memoria",
+        "description": "01-tipos-datos.variable-direccion-memoria",
+        "peekOfCode": "z = x + y\nprint(x)\nprint(y)\nprint(z)\nprint(id(x))\nprint(id(y))\nprint(id(z))",
+        "detail": "01-tipos-datos.variable-direccion-memoria",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "02-operadores.ope-asignacion",
+        "description": "02-operadores.ope-asignacion",
+        "peekOfCode": "var = 10\nprint(f\"{var}\")\nprint(f\"Incrementar valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar = var + 1\nprint(f\"{var}\")\nvar += 1\nprint(f\"{var}\")\nprint(f\"Restar valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar = var - 1\nprint(f\"{var}\")",
+        "detail": "02-operadores.ope-asignacion",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "02-operadores.ope-asignacion",
+        "description": "02-operadores.ope-asignacion",
+        "peekOfCode": "var = var + 1\nprint(f\"{var}\")\nvar += 1\nprint(f\"{var}\")\nprint(f\"Restar valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar = var - 1\nprint(f\"{var}\")\nvar -= 1\nprint(f\"{var}\")\nprint(f\"Multiplicar  * 3 valor con operador de asignación. Valor inicial de la variable: {var}\")",
+        "detail": "02-operadores.ope-asignacion",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "02-operadores.ope-asignacion",
+        "description": "02-operadores.ope-asignacion",
+        "peekOfCode": "var = var - 1\nprint(f\"{var}\")\nvar -= 1\nprint(f\"{var}\")\nprint(f\"Multiplicar  * 3 valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar = var * 3\nprint(f\"{var}\")\nprint(f\"Multiplicar  * 3 valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar *= 3\nprint(f\"{var}\")",
+        "detail": "02-operadores.ope-asignacion",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "02-operadores.ope-asignacion",
+        "description": "02-operadores.ope-asignacion",
+        "peekOfCode": "var = var * 3\nprint(f\"{var}\")\nprint(f\"Multiplicar  * 3 valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar *= 3\nprint(f\"{var}\")\nprint(f\"Dividir entre 3 valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar = var / 3\nprint(f\"{var}\")\nprint(f\"Dividir / 3 valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar /= 3",
+        "detail": "02-operadores.ope-asignacion",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "02-operadores.ope-asignacion",
+        "description": "02-operadores.ope-asignacion",
+        "peekOfCode": "var = var / 3\nprint(f\"{var}\")\nprint(f\"Dividir / 3 valor con operador de asignación. Valor inicial de la variable: {var}\")\nvar /= 3\nprint(f\"{var}\")",
+        "detail": "02-operadores.ope-asignacion",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "02-operadores.ope-comparacion",
+        "description": "02-operadores.ope-comparacion",
+        "peekOfCode": "a = int(input(\"Ingrese primer valor....\"))\nb = int(input(\"Ingrese segundo valor5 valor....\"))\nresultado = a == b\nprint(f\"{a} es igual(==) a {b}? {resultado}\")\nresultado = a != b\nprint(f\"{a} es diferente(!) de {b}? {resultado}\")\nresultado = a > b\nprint(f\"{a} es mayor(>) de {b}? {resultado}\")\nresultado = a < b\nprint(f\"{a} es menor(<) de {b}? {resultado}\")",
+        "detail": "02-operadores.ope-comparacion",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "02-operadores.ope-comparacion",
+        "description": "02-operadores.ope-comparacion",
+        "peekOfCode": "b = int(input(\"Ingrese segundo valor5 valor....\"))\nresultado = a == b\nprint(f\"{a} es igual(==) a {b}? {resultado}\")\nresultado = a != b\nprint(f\"{a} es diferente(!) de {b}? {resultado}\")\nresultado = a > b\nprint(f\"{a} es mayor(>) de {b}? {resultado}\")\nresultado = a < b\nprint(f\"{a} es menor(<) de {b}? {resultado}\")\nresultado = a >= b",
+        "detail": "02-operadores.ope-comparacion",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "02-operadores.ope-comparacion",
+        "description": "02-operadores.ope-comparacion",
+        "peekOfCode": "resultado = a == b\nprint(f\"{a} es igual(==) a {b}? {resultado}\")\nresultado = a != b\nprint(f\"{a} es diferente(!) de {b}? {resultado}\")\nresultado = a > b\nprint(f\"{a} es mayor(>) de {b}? {resultado}\")\nresultado = a < b\nprint(f\"{a} es menor(<) de {b}? {resultado}\")\nresultado = a >= b\nprint(f\"{a} es mayor(>) o igual(=) de {b}? {resultado}\")",
+        "detail": "02-operadores.ope-comparacion",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "02-operadores.ope-comparacion",
+        "description": "02-operadores.ope-comparacion",
+        "peekOfCode": "resultado = a != b\nprint(f\"{a} es diferente(!) de {b}? {resultado}\")\nresultado = a > b\nprint(f\"{a} es mayor(>) de {b}? {resultado}\")\nresultado = a < b\nprint(f\"{a} es menor(<) de {b}? {resultado}\")\nresultado = a >= b\nprint(f\"{a} es mayor(>) o igual(=) de {b}? {resultado}\")\nresultado = a <= b\nprint(f\"{a} es menor(<) o igual (=) de {b}? {resultado}\")",
+        "detail": "02-operadores.ope-comparacion",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "02-operadores.ope-comparacion",
+        "description": "02-operadores.ope-comparacion",
+        "peekOfCode": "resultado = a > b\nprint(f\"{a} es mayor(>) de {b}? {resultado}\")\nresultado = a < b\nprint(f\"{a} es menor(<) de {b}? {resultado}\")\nresultado = a >= b\nprint(f\"{a} es mayor(>) o igual(=) de {b}? {resultado}\")\nresultado = a <= b\nprint(f\"{a} es menor(<) o igual (=) de {b}? {resultado}\")",
+        "detail": "02-operadores.ope-comparacion",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "02-operadores.ope-comparacion",
+        "description": "02-operadores.ope-comparacion",
+        "peekOfCode": "resultado = a < b\nprint(f\"{a} es menor(<) de {b}? {resultado}\")\nresultado = a >= b\nprint(f\"{a} es mayor(>) o igual(=) de {b}? {resultado}\")\nresultado = a <= b\nprint(f\"{a} es menor(<) o igual (=) de {b}? {resultado}\")",
+        "detail": "02-operadores.ope-comparacion",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "02-operadores.ope-comparacion",
+        "description": "02-operadores.ope-comparacion",
+        "peekOfCode": "resultado = a >= b\nprint(f\"{a} es mayor(>) o igual(=) de {b}? {resultado}\")\nresultado = a <= b\nprint(f\"{a} es menor(<) o igual (=) de {b}? {resultado}\")",
+        "detail": "02-operadores.ope-comparacion",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "02-operadores.ope-comparacion",
+        "description": "02-operadores.ope-comparacion",
+        "peekOfCode": "resultado = a <= b\nprint(f\"{a} es menor(<) o igual (=) de {b}? {resultado}\")",
+        "detail": "02-operadores.ope-comparacion",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer-and-logicos",
+        "description": "02-operadores.ope-ejer-and-logicos",
+        "peekOfCode": "valor = int(input(\"Ingresa un valor númerico   \"))\nvalorMinimo = 0\nvalorMaximo = 5\nif valor >= valorMinimo and valor <= valorMaximo:\n    print(f'{valor} se encuentra entre el rango de 0 a 5')\nelif valor < 0:\n    print(f'{valor} en rango negativo')    \nelse:\n    print(f'{valor} no se encuentra entre el rango de 0 a 5')",
+        "detail": "02-operadores.ope-ejer-and-logicos",
+        "documentation": {}
+    },
+    {
+        "label": "valorMinimo",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer-and-logicos",
+        "description": "02-operadores.ope-ejer-and-logicos",
+        "peekOfCode": "valorMinimo = 0\nvalorMaximo = 5\nif valor >= valorMinimo and valor <= valorMaximo:\n    print(f'{valor} se encuentra entre el rango de 0 a 5')\nelif valor < 0:\n    print(f'{valor} en rango negativo')    \nelse:\n    print(f'{valor} no se encuentra entre el rango de 0 a 5')",
+        "detail": "02-operadores.ope-ejer-and-logicos",
+        "documentation": {}
+    },
+    {
+        "label": "valorMaximo",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer-and-logicos",
+        "description": "02-operadores.ope-ejer-and-logicos",
+        "peekOfCode": "valorMaximo = 5\nif valor >= valorMinimo and valor <= valorMaximo:\n    print(f'{valor} se encuentra entre el rango de 0 a 5')\nelif valor < 0:\n    print(f'{valor} en rango negativo')    \nelse:\n    print(f'{valor} no se encuentra entre el rango de 0 a 5')",
+        "detail": "02-operadores.ope-ejer-and-logicos",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer-numero-par",
+        "description": "02-operadores.ope-ejer-numero-par",
+        "peekOfCode": "a = int(input(\"Ingrese valor numérico:   \"))\nif a % 2 == 0:\n    print(f\"El valor de a ({a}) es número par\")\nelse:\n    print(f\"El valor de a ({a}) es número impar\")\nedad = int(input(\"Ingrese edad:   \"))\nif edad >= 18:\n    print(f\"Su edad es {edad}. Usted es mayor de edad\")\nelif edad < 18 or edad > 0:\n    print(f\"Su edad es {edad}. Usted no es mayor de edad\")",
+        "detail": "02-operadores.ope-ejer-numero-par",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer-numero-par",
+        "description": "02-operadores.ope-ejer-numero-par",
+        "peekOfCode": "edad = int(input(\"Ingrese edad:   \"))\nif edad >= 18:\n    print(f\"Su edad es {edad}. Usted es mayor de edad\")\nelif edad < 18 or edad > 0:\n    print(f\"Su edad es {edad}. Usted no es mayor de edad\")\nelse:\n    print(f'{edad} no es un valor valuable')",
+        "detail": "02-operadores.ope-ejer-numero-par",
+        "documentation": {}
+    },
+    {
+        "label": "vacaciones",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer-or-logico",
+        "description": "02-operadores.ope-ejer-or-logico",
+        "peekOfCode": "vacaciones = int(input(\"Vacaciones -  1 = si  / 0 = no \"))\ndiasDescanso = int(input(\"Dias de descanso -  1 = si  / 0 = no  \"))\nif vacaciones == 1:\n    vacaciones = True\nelse:\n<<<<<<< HEAD:02-operadores/ope-ejer-or-logico.py\n    vacaciones = False\n=======\n    vacaciones = False\n>>>>>>> 3c8781e968d113abea69aa0b2e3a091556772e45:operadores/ope-ejer-or-logico.py",
+        "detail": "02-operadores.ope-ejer-or-logico",
+        "documentation": {}
+    },
+    {
+        "label": "diasDescanso",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer-or-logico",
+        "description": "02-operadores.ope-ejer-or-logico",
+        "peekOfCode": "diasDescanso = int(input(\"Dias de descanso -  1 = si  / 0 = no  \"))\nif vacaciones == 1:\n    vacaciones = True\nelse:\n<<<<<<< HEAD:02-operadores/ope-ejer-or-logico.py\n    vacaciones = False\n=======\n    vacaciones = False\n>>>>>>> 3c8781e968d113abea69aa0b2e3a091556772e45:operadores/ope-ejer-or-logico.py\nif diasDescanso == 1:",
+        "detail": "02-operadores.ope-ejer-or-logico",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer3-log",
+        "description": "02-operadores.ope-ejer3-log",
+        "peekOfCode": "num1 = int(input(\"Ingresa primer numero...  \"))\nnum2 = int(input(\"Ingresa segundo numero...  \"))\nif num1 > num2:\n    print(\"Número 1 es mayor\")\n    print(f\"{num1} es mayor que {num2}\")\nelif num1 < num2:\n    print(\"Número 2 es mayor\")\n    print(f\"{num1} es menor que {num2}\")\nelse:\n    print(f'{num1} es igual a {num2}')",
+        "detail": "02-operadores.ope-ejer3-log",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer3-log",
+        "description": "02-operadores.ope-ejer3-log",
+        "peekOfCode": "num2 = int(input(\"Ingresa segundo numero...  \"))\nif num1 > num2:\n    print(\"Número 1 es mayor\")\n    print(f\"{num1} es mayor que {num2}\")\nelif num1 < num2:\n    print(\"Número 2 es mayor\")\n    print(f\"{num1} es menor que {num2}\")\nelse:\n    print(f'{num1} es igual a {num2}')",
+        "detail": "02-operadores.ope-ejer3-log",
+        "documentation": {}
+    },
+    {
+        "label": "libro",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer4-log",
+        "description": "02-operadores.ope-ejer4-log",
+        "peekOfCode": "libro = input(\"Proporcione el nombre: \")\nidLibro = input(\"Proporcione el ID: \")\nprecio = float(input(\"Proporcione el precio : \"))\nestadoEnvio = input(\"Indique sí el envío es gratutito (True/False)\")\nif estadoEnvio == \"True\":\n    estadoEnvio = True\nelif estadoEnvio == \"False\":\n    estadoEnvio = False\nprint(f'''\n      \\tDatos del libro:\\n ",
+        "detail": "02-operadores.ope-ejer4-log",
+        "documentation": {}
+    },
+    {
+        "label": "idLibro",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer4-log",
+        "description": "02-operadores.ope-ejer4-log",
+        "peekOfCode": "idLibro = input(\"Proporcione el ID: \")\nprecio = float(input(\"Proporcione el precio : \"))\nestadoEnvio = input(\"Indique sí el envío es gratutito (True/False)\")\nif estadoEnvio == \"True\":\n    estadoEnvio = True\nelif estadoEnvio == \"False\":\n    estadoEnvio = False\nprint(f'''\n      \\tDatos del libro:\\n \n      Libro: {libro} ",
+        "detail": "02-operadores.ope-ejer4-log",
+        "documentation": {}
+    },
+    {
+        "label": "precio",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer4-log",
+        "description": "02-operadores.ope-ejer4-log",
+        "peekOfCode": "precio = float(input(\"Proporcione el precio : \"))\nestadoEnvio = input(\"Indique sí el envío es gratutito (True/False)\")\nif estadoEnvio == \"True\":\n    estadoEnvio = True\nelif estadoEnvio == \"False\":\n    estadoEnvio = False\nprint(f'''\n      \\tDatos del libro:\\n \n      Libro: {libro} \n      Id: {idLibro}",
+        "detail": "02-operadores.ope-ejer4-log",
+        "documentation": {}
+    },
+    {
+        "label": "estadoEnvio",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ejer4-log",
+        "description": "02-operadores.ope-ejer4-log",
+        "peekOfCode": "estadoEnvio = input(\"Indique sí el envío es gratutito (True/False)\")\nif estadoEnvio == \"True\":\n    estadoEnvio = True\nelif estadoEnvio == \"False\":\n    estadoEnvio = False\nprint(f'''\n      \\tDatos del libro:\\n \n      Libro: {libro} \n      Id: {idLibro}\n      Precio: {precio} ",
+        "detail": "02-operadores.ope-ejer4-log",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "02-operadores.ope-logicos",
+        "description": "02-operadores.ope-logicos",
+        "peekOfCode": "valor = int(input(\"Ingresa un valor    \"))\nvalor2 = int(input(\"Ingresa segundo valor    \"))\nif valor == 0 and valor2 == 2:\n    print(f\"Los valores {valor} y {valor2} son 0 y 2\")\nelse:\n    print(f\"Los valores no coincidieron\")\nif valor == 0 or valor2 == 2:\n    print(f\"Los valores {valor} y {valor2} pueden ser o 0 y 2\")\nelse:\n    print(f\"Los valores no coincidieron\")",
+        "detail": "02-operadores.ope-logicos",
+        "documentation": {}
+    },
+    {
+        "label": "valor2",
+        "kind": 5,
+        "importPath": "02-operadores.ope-logicos",
+        "description": "02-operadores.ope-logicos",
+        "peekOfCode": "valor2 = int(input(\"Ingresa segundo valor    \"))\nif valor == 0 and valor2 == 2:\n    print(f\"Los valores {valor} y {valor2} son 0 y 2\")\nelse:\n    print(f\"Los valores no coincidieron\")\nif valor == 0 or valor2 == 2:\n    print(f\"Los valores {valor} y {valor2} pueden ser o 0 y 2\")\nelse:\n    print(f\"Los valores no coincidieron\")\na = False",
+        "detail": "02-operadores.ope-logicos",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "02-operadores.ope-logicos",
+        "description": "02-operadores.ope-logicos",
+        "peekOfCode": "a = False\nb = True\nprint(f'Valor de a: {a} - Valor de b: {b}')\nprint(f'Revirtiendo el valor de a con operador not')\na = not a\nprint(f'Valor de a: {a} - Valor de b: {b}')",
+        "detail": "02-operadores.ope-logicos",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "02-operadores.ope-logicos",
+        "description": "02-operadores.ope-logicos",
+        "peekOfCode": "b = True\nprint(f'Valor de a: {a} - Valor de b: {b}')\nprint(f'Revirtiendo el valor de a con operador not')\na = not a\nprint(f'Valor de a: {a} - Valor de b: {b}')",
+        "detail": "02-operadores.ope-logicos",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "02-operadores.ope-logicos",
+        "description": "02-operadores.ope-logicos",
+        "peekOfCode": "a = not a\nprint(f'Valor de a: {a} - Valor de b: {b}')",
+        "detail": "02-operadores.ope-logicos",
+        "documentation": {}
+    },
+    {
+        "label": "alto",
+        "kind": 5,
+        "importPath": "02-operadores.ope-mat-ejercicio",
+        "description": "02-operadores.ope-mat-ejercicio",
+        "peekOfCode": "alto = int(input(\"Ingrese altura...   \"))\nancho = int(input(\"Ingrese ancho...   \"))\nperimetro  = (alto + ancho) * 2\narea = alto * ancho\nprint(f'Área: {area}')\nprint(f'Perímetro: {perimetro}')",
+        "detail": "02-operadores.ope-mat-ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "ancho",
+        "kind": 5,
+        "importPath": "02-operadores.ope-mat-ejercicio",
+        "description": "02-operadores.ope-mat-ejercicio",
+        "peekOfCode": "ancho = int(input(\"Ingrese ancho...   \"))\nperimetro  = (alto + ancho) * 2\narea = alto * ancho\nprint(f'Área: {area}')\nprint(f'Perímetro: {perimetro}')",
+        "detail": "02-operadores.ope-mat-ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "02-operadores.ope-mat-ejercicio",
+        "description": "02-operadores.ope-mat-ejercicio",
+        "peekOfCode": "area = alto * ancho\nprint(f'Área: {area}')\nprint(f'Perímetro: {perimetro}')",
+        "detail": "02-operadores.ope-mat-ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "02-operadores.ope-ope-log",
+        "description": "02-operadores.ope-ope-log",
+        "peekOfCode": "edad = int(input(\"¿Cúal es tu edad?  \"))\nif edad <= 30 and edad >= 20:\n    print(\"Tu edad se encuentra entre los 20´s y los 30´s\") \nelse:\n    print(\"Tu edad no se encuentra entre los 20´s y los 30´s\")",
+        "detail": "02-operadores.ope-ope-log",
+        "documentation": {}
+    },
+    {
+        "label": "operandoA",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "operandoA = float(input(\"Ingresa primer operando...  \"))\noperandoB = float(input(\"Ingresa segundo operando... \"))\nsuma = operandoA + operandoB\nresta = operandoA - operandoB\nmultiplicacion = operandoA * operandoB\ndivision = operandoA / operandoB\ndivision_entera = operandoA // operandoB\nmodulo = operandoA % operandoB\nexponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "operandoB",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "operandoB = float(input(\"Ingresa segundo operando... \"))\nsuma = operandoA + operandoB\nresta = operandoA - operandoB\nmultiplicacion = operandoA * operandoB\ndivision = operandoA / operandoB\ndivision_entera = operandoA // operandoB\nmodulo = operandoA % operandoB\nexponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)\nprint(f\"Resultado suma: {suma}\")",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "suma = operandoA + operandoB\nresta = operandoA - operandoB\nmultiplicacion = operandoA * operandoB\ndivision = operandoA / operandoB\ndivision_entera = operandoA // operandoB\nmodulo = operandoA % operandoB\nexponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)\nprint(f\"Resultado suma: {suma}\")\nprint(f\"Resultado resta: {resta}\")",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "resta",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "resta = operandoA - operandoB\nmultiplicacion = operandoA * operandoB\ndivision = operandoA / operandoB\ndivision_entera = operandoA // operandoB\nmodulo = operandoA % operandoB\nexponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)\nprint(f\"Resultado suma: {suma}\")\nprint(f\"Resultado resta: {resta}\")\nprint(f\"Resultado multiplicacion: {multiplicacion}\")",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicacion",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "multiplicacion = operandoA * operandoB\ndivision = operandoA / operandoB\ndivision_entera = operandoA // operandoB\nmodulo = operandoA % operandoB\nexponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)\nprint(f\"Resultado suma: {suma}\")\nprint(f\"Resultado resta: {resta}\")\nprint(f\"Resultado multiplicacion: {multiplicacion}\")\nprint(f\"Resultado división: {division} y el residuo es {modulo}\")",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "division",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "division = operandoA / operandoB\ndivision_entera = operandoA // operandoB\nmodulo = operandoA % operandoB\nexponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)\nprint(f\"Resultado suma: {suma}\")\nprint(f\"Resultado resta: {resta}\")\nprint(f\"Resultado multiplicacion: {multiplicacion}\")\nprint(f\"Resultado división: {division} y el residuo es {modulo}\")\nprint(f\"Resultado división resultado entera: {division_entera} y el residuo es {modulo}\")",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "division_entera",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "division_entera = operandoA // operandoB\nmodulo = operandoA % operandoB\nexponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)\nprint(f\"Resultado suma: {suma}\")\nprint(f\"Resultado resta: {resta}\")\nprint(f\"Resultado multiplicacion: {multiplicacion}\")\nprint(f\"Resultado división: {division} y el residuo es {modulo}\")\nprint(f\"Resultado división resultado entera: {division_entera} y el residuo es {modulo}\")\nprint(f\"Resultado de exponente: {exponente}\")",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "modulo",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "modulo = operandoA % operandoB\nexponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)\nprint(f\"Resultado suma: {suma}\")\nprint(f\"Resultado resta: {resta}\")\nprint(f\"Resultado multiplicacion: {multiplicacion}\")\nprint(f\"Resultado división: {division} y el residuo es {modulo}\")\nprint(f\"Resultado división resultado entera: {division_entera} y el residuo es {modulo}\")\nprint(f\"Resultado de exponente: {exponente}\")",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "exponente",
+        "kind": 5,
+        "importPath": "02-operadores.operadores-matematicos",
+        "description": "02-operadores.operadores-matematicos",
+        "peekOfCode": "exponente = operandoA**operandoB\n# print(\"Resultado suma:\", suma)\nprint(f\"Resultado suma: {suma}\")\nprint(f\"Resultado resta: {resta}\")\nprint(f\"Resultado multiplicacion: {multiplicacion}\")\nprint(f\"Resultado división: {division} y el residuo es {modulo}\")\nprint(f\"Resultado división resultado entera: {division_entera} y el residuo es {modulo}\")\nprint(f\"Resultado de exponente: {exponente}\")",
+        "detail": "02-operadores.operadores-matematicos",
+        "documentation": {}
+    },
+    {
+        "label": "condicion",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3-3-ternario",
+        "description": "03-sentencias-de-control.3-3-ternario",
+        "peekOfCode": "condicion = False\n# if condicion:\n#     print(\"Condición verdadera\")\n# else:\n#     print(\"Condición falsa\")    \n# crlt k ctrl c\nprint(\"Condición verdadera\") if condicion else print(\"Condición falsa\")",
+        "detail": "03-sentencias-de-control.3-3-ternario",
+        "documentation": {}
+    },
+    {
+        "label": "mes",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "description": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "peekOfCode": "mes = int(input(\"Proporciona el mes del año (númerico) \"))\nmes_nombre = \"\"\nestacion = \"\"\nif mes == 1:\n    mes_nombre = \"Enero\"\n    estacion = \"Invierno\"\nelif mes == 2:\n    mes_nombre = \"Febrero\"\n    estacion = \"Invierno\"\nelif mes == 3:",
+        "detail": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "documentation": {}
+    },
+    {
+        "label": "mes_nombre",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "description": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "peekOfCode": "mes_nombre = \"\"\nestacion = \"\"\nif mes == 1:\n    mes_nombre = \"Enero\"\n    estacion = \"Invierno\"\nelif mes == 2:\n    mes_nombre = \"Febrero\"\n    estacion = \"Invierno\"\nelif mes == 3:\n    mes_nombre = \"Marzo\"",
+        "detail": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "documentation": {}
+    },
+    {
+        "label": "estacion",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "description": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "peekOfCode": "estacion = \"\"\nif mes == 1:\n    mes_nombre = \"Enero\"\n    estacion = \"Invierno\"\nelif mes == 2:\n    mes_nombre = \"Febrero\"\n    estacion = \"Invierno\"\nelif mes == 3:\n    mes_nombre = \"Marzo\"\n    estacion = \"Invierno\"",
+        "detail": "03-sentencias-de-control.3-4-ejer-ifElse",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3-5-ejer2-ifelse",
+        "description": "03-sentencias-de-control.3-5-ejer2-ifelse",
+        "peekOfCode": "edad = int(input(\"Ingresa tu edad... \"))\nmensaje = None\nif 0 <= edad < 10:\n    mensaje = \"La infancia es increible\"\nelif 10 <= edad < 20:\n    mensaje = \"Muchos cambios y mucho estudio\"\nelif 20 <= edad < 30:\n    mensaje = \"Amor y comienza el trabajo\"\nelse:\n    mensaje = \"Etapa de vida no reconocida\"",
+        "detail": "03-sentencias-de-control.3-5-ejer2-ifelse",
+        "documentation": {}
+    },
+    {
+        "label": "mensaje",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3-5-ejer2-ifelse",
+        "description": "03-sentencias-de-control.3-5-ejer2-ifelse",
+        "peekOfCode": "mensaje = None\nif 0 <= edad < 10:\n    mensaje = \"La infancia es increible\"\nelif 10 <= edad < 20:\n    mensaje = \"Muchos cambios y mucho estudio\"\nelif 20 <= edad < 30:\n    mensaje = \"Amor y comienza el trabajo\"\nelse:\n    mensaje = \"Etapa de vida no reconocida\"\nprint(f\"Tu edad es: {edad}, {mensaje}\")",
+        "detail": "03-sentencias-de-control.3-5-ejer2-ifelse",
+        "documentation": {}
+    },
+    {
+        "label": "calificacion",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3-6-ejer3-ifelse",
+        "description": "03-sentencias-de-control.3-6-ejer3-ifelse",
+        "peekOfCode": "calificacion = int(input(\"Ingrese su calificación\\n\\t\"))\ncalificacion_final = \"\"\nif calificacion == 10:\n    calificacion_final = \"A\"\nelif calificacion <= 9 and calificacion >= 8:\n    calificacion_final = \"B\"\nelif calificacion <= 8 and calificacion >= 7:\n    calificacion_final = \"C\"\nelif calificacion <= 7 and calificacion >= 6:\n    calificacion_final = \"D\"",
+        "detail": "03-sentencias-de-control.3-6-ejer3-ifelse",
+        "documentation": {}
+    },
+    {
+        "label": "calificacion_final",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3-6-ejer3-ifelse",
+        "description": "03-sentencias-de-control.3-6-ejer3-ifelse",
+        "peekOfCode": "calificacion_final = \"\"\nif calificacion == 10:\n    calificacion_final = \"A\"\nelif calificacion <= 9 and calificacion >= 8:\n    calificacion_final = \"B\"\nelif calificacion <= 8 and calificacion >= 7:\n    calificacion_final = \"C\"\nelif calificacion <= 7 and calificacion >= 6:\n    calificacion_final = \"D\"\nelif calificacion > 0 and calificacion < 6:",
+        "detail": "03-sentencias-de-control.3-6-ejer3-ifelse",
+        "documentation": {}
+    },
+    {
+        "label": "condicion",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3_1-sentencia-if-else",
+        "description": "03-sentencias-de-control.3_1-sentencia-if-else",
+        "peekOfCode": "condicion = False\nif condicion == True:\n    print(\"La condición es verdadera\")\nelif condicion == False:\n    print(\"La condición es falsa\")\nelse:\n    print(\"La condición no es reconocida\")",
+        "detail": "03-sentencias-de-control.3_1-sentencia-if-else",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3_2-ejer-ifelse",
+        "description": "03-sentencias-de-control.3_2-ejer-ifelse",
+        "peekOfCode": "numero = int(input(\"Proporciona un valor entre 1 y 3 \"))\nnumeroTexto = \"\"\nif numero == 1:\n    numeroTexto = \"Número uno\"\nelif numero == 2:\n    numeroTexto = \"Número dos\"\nelif numero == 3:\n    numeroTexto = \"Número tres\"\nelse:\n    numeroTexto = \"Valor fuera de rango\"",
+        "detail": "03-sentencias-de-control.3_2-ejer-ifelse",
+        "documentation": {}
+    },
+    {
+        "label": "numeroTexto",
+        "kind": 5,
+        "importPath": "03-sentencias-de-control.3_2-ejer-ifelse",
+        "description": "03-sentencias-de-control.3_2-ejer-ifelse",
+        "peekOfCode": "numeroTexto = \"\"\nif numero == 1:\n    numeroTexto = \"Número uno\"\nelif numero == 2:\n    numeroTexto = \"Número dos\"\nelif numero == 3:\n    numeroTexto = \"Número tres\"\nelse:\n    numeroTexto = \"Valor fuera de rango\"\nprint(f\"Número proporcionado - {numero}: {numeroTexto}\")",
+        "detail": "03-sentencias-de-control.3_2-ejer-ifelse",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "04-ciclos.4-1-ciclo-while",
+        "description": "04-ciclos.4-1-ciclo-while",
+        "peekOfCode": "contador = 0\nwhile contador < 3:\n    print(\"\\t\",contador)\n    contador += 1\nelse:\n    print(\"\\t\\nFin de ciclo while\")",
+        "detail": "04-ciclos.4-1-ciclo-while",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "04-ciclos.4-2-ciclo-while-ejer1",
+        "description": "04-ciclos.4-2-ciclo-while-ejer1",
+        "peekOfCode": "contador = 0\nmaximo = 5\nwhile contador <= maximo:\n    print(contador)\n    contador += 1\nelse:\n    print(\"\\tFin del ciclo\")",
+        "detail": "04-ciclos.4-2-ciclo-while-ejer1",
+        "documentation": {}
+    },
+    {
+        "label": "maximo",
+        "kind": 5,
+        "importPath": "04-ciclos.4-2-ciclo-while-ejer1",
+        "description": "04-ciclos.4-2-ciclo-while-ejer1",
+        "peekOfCode": "maximo = 5\nwhile contador <= maximo:\n    print(contador)\n    contador += 1\nelse:\n    print(\"\\tFin del ciclo\")",
+        "detail": "04-ciclos.4-2-ciclo-while-ejer1",
+        "documentation": {}
+    },
+    {
+        "label": "minimo",
+        "kind": 5,
+        "importPath": "04-ciclos.4-3-ciclo-while-ejer2",
+        "description": "04-ciclos.4-3-ciclo-while-ejer2",
+        "peekOfCode": "minimo = 1\ncontador = 5\nwhile contador >= minimo:\n    print(contador)\n    contador -= 1\nelse:\n    print(\"\\tFin del ciclo\")",
+        "detail": "04-ciclos.4-3-ciclo-while-ejer2",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "04-ciclos.4-3-ciclo-while-ejer2",
+        "description": "04-ciclos.4-3-ciclo-while-ejer2",
+        "peekOfCode": "contador = 5\nwhile contador >= minimo:\n    print(contador)\n    contador -= 1\nelse:\n    print(\"\\tFin del ciclo\")",
+        "detail": "04-ciclos.4-3-ciclo-while-ejer2",
+        "documentation": {}
+    },
+    {
+        "label": "cadena",
+        "kind": 5,
+        "importPath": "04-ciclos.4-4-ciclo-for",
+        "description": "04-ciclos.4-4-ciclo-for",
+        "peekOfCode": "cadena = \"Hola\"\nfor letra in cadena:\n    print(letra)\nelse:\n    print(\"Fin ciclo for\")",
+        "detail": "04-ciclos.4-4-ciclo-for",
+        "documentation": {}
+    },
+    {
+        "label": "cadena",
+        "kind": 5,
+        "importPath": "04-ciclos.4-5-ciclo-for-break",
+        "description": "04-ciclos.4-5-ciclo-for-break",
+        "peekOfCode": "cadena = \"Holanda\"\nfor letra in cadena:\n    if letra == \"a\":\n        print(f'Letra encontrada: {letra}')\n        break\nelse:\n    print(\"Fin ciclo for\")",
+        "detail": "04-ciclos.4-5-ciclo-for-break",
+        "documentation": {}
+    },
+    {
+        "label": "nombres",
+        "kind": 5,
+        "importPath": "05-colecciones.5-1-listas",
+        "description": "05-colecciones.5-1-listas",
+        "peekOfCode": "nombres = [\"Vero\", \"César\", \"Gloria\", \"Vanessa\"]\nprint(\"\")\nprint(\"\\t\", nombres)\nprint(\"\")\nprint(\"\\t\", nombres[0])\nprint(\"\\t\", nombres[3])\nprint(\"Acceder a los elementos de la lista de manera inversa\\n\")\nprint(\"\\t\", nombres)\nprint(\"-\", nombres[-3])\nprint(\"-\", nombres[-1])",
+        "detail": "05-colecciones.5-1-listas",
+        "documentation": {}
+    },
+    {
+        "label": "nombres[3]",
+        "kind": 5,
+        "importPath": "05-colecciones.5-1-listas",
+        "description": "05-colecciones.5-1-listas",
+        "peekOfCode": "nombres[3] = \"Aurelio\"\nprint(\"Agregar un nuevo elemento a la lista\")\nnombres.append(\"Vanessa\")\nprint(nombres)\nprint(\"\")\nfor nombre in nombres:\n    print(\"\\t\", nombre)\nelse:\n    print(\"\\nNo existen más nombres en la lista\")\nprint(\"\")",
+        "detail": "05-colecciones.5-1-listas",
+        "documentation": {}
+    },
+    {
+        "label": "frutas",
+        "kind": 5,
+        "importPath": "05-colecciones.5-3-tuplas",
+        "description": "05-colecciones.5-3-tuplas",
+        "peekOfCode": "frutas = (\"Naranja\", \"Platano\", \"Guayaba\", \"Uva\")\nprint(frutas)\nprint(\"Conocer el largo de una tupla con funcion len(tupla): \", len(frutas))\nprint(\"\\t\\nElementos de la tupla por indice (frutas[0]): \", frutas[0])\nprint(\"\\t\\nElementos de la tupla por indice inverso (frutas[-1]): \", frutas[-1])\nprint(\n    \"\\t\\nAcceder a un rango (frutas[1:3]):\",\n    frutas[1:3],\n    \"   <-- No se incluye el último índice de la tupla\",\n)",
+        "detail": "05-colecciones.5-3-tuplas",
+        "documentation": {}
+    },
+    {
+        "label": "frutasList",
+        "kind": 5,
+        "importPath": "05-colecciones.5-3-tuplas",
+        "description": "05-colecciones.5-3-tuplas",
+        "peekOfCode": "frutasList = list(frutas)\nprint(\"Elementos de la lista casteada de una tupla\")\nprint(frutasList)\nprint(\"Tipo de dato de frutasList:\", type(frutasList))\nprint(\"\\n Castear y convertir frutasList a una tupla\")\nfrutasTupla = tuple(frutasList)\nprint(frutasTupla)\nprint(\"Frutas tupla es de tipo: \", type(frutasTupla))",
+        "detail": "05-colecciones.5-3-tuplas",
+        "documentation": {}
+    },
+    {
+        "label": "frutasTupla",
+        "kind": 5,
+        "importPath": "05-colecciones.5-3-tuplas",
+        "description": "05-colecciones.5-3-tuplas",
+        "peekOfCode": "frutasTupla = tuple(frutasList)\nprint(frutasTupla)\nprint(\"Frutas tupla es de tipo: \", type(frutasTupla))",
+        "detail": "05-colecciones.5-3-tuplas",
+        "documentation": {}
+    },
+    {
+        "label": "tupla",
+        "kind": 5,
+        "importPath": "05-colecciones.5-4-ejercicio-tupla-lista",
+        "description": "05-colecciones.5-4-ejercicio-tupla-lista",
+        "peekOfCode": "tupla = (13, 1, 8, 3, 2, 5, 8)\nlista = []\nfor elemento in tupla:\n    if elemento < 5:\n        lista.append(elemento)\nprint(lista)",
+        "detail": "05-colecciones.5-4-ejercicio-tupla-lista",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "05-colecciones.5-4-ejercicio-tupla-lista",
+        "description": "05-colecciones.5-4-ejercicio-tupla-lista",
+        "peekOfCode": "lista = []\nfor elemento in tupla:\n    if elemento < 5:\n        lista.append(elemento)\nprint(lista)",
+        "detail": "05-colecciones.5-4-ejercicio-tupla-lista",
+        "documentation": {}
+    },
+    {
+        "label": "planetas",
+        "kind": 5,
+        "importPath": "05-colecciones.5-5-set",
+        "description": "05-colecciones.5-5-set",
+        "peekOfCode": "planetas = {\"Marte\", \"Jupiter\", \"Venus\"}\n# Conocwer el largo de los elementos del set\nprint(type(planetas))\nprint(planetas)\nprint(len(planetas))\n# Revisar si un elemento esta presente en un set\nprint(\"Martes\" in planetas)\nprint(\"Marte\" in planetas)\n# Agregando un nuevo elemento en un set\nplanetas.add(\"Tierra\")",
+        "detail": "05-colecciones.5-5-set",
+        "documentation": {}
+    },
+    {
+        "label": "diccionario",
+        "kind": 5,
+        "importPath": "05-colecciones.5-6-diccionarios",
+        "description": "05-colecciones.5-6-diccionarios",
+        "peekOfCode": "diccionario = {\n    \"IDE\": \"Integrated Development Environment\",\n    \"OOP\": \"Object Oriented Programming\",\n    \"DBMS\": \"Database Management System\",\n}\nprint(diccionario)\nprint(\"\\nConociendo el largo de un diccionario\")\nprint(len(diccionario))\nprint(\"\\nAccediendo a elementos del diccionario\")\nprint(f'\\tdiccionario[\"IDE\"]: {diccionario[\"IDE\"]}')",
+        "detail": "05-colecciones.5-6-diccionarios",
+        "documentation": {}
+    },
+    {
+        "label": "diccionario[\"IDE\"]",
+        "kind": 5,
+        "importPath": "05-colecciones.5-6-diccionarios",
+        "description": "05-colecciones.5-6-diccionarios",
+        "peekOfCode": "diccionario[\"IDE\"] = \"integrated development environment\"\nprint(f'\\tdiccionario[\"IDE\"]: {diccionario[\"IDE\"]}')\nprint(diccionario)\nprint(\"\\nRecorrer los elementos de un diccionario\")\nfor termino in diccionario:\n    print(f\"\\t- {termino} \")\nprint(\"\\nMostrar llave y valor con ciclo for\")\nfor termino, valor in diccionario.items():\n    print(f\"\\t{termino} - {valor}\")\nprint(\"\\nMostrar llave con ciclo for\")",
+        "detail": "05-colecciones.5-6-diccionarios",
+        "documentation": {}
+    },
+    {
+        "label": "diccionario[\"PK\"]",
+        "kind": 5,
+        "importPath": "05-colecciones.5-6-diccionarios",
+        "description": "05-colecciones.5-6-diccionarios",
+        "peekOfCode": "diccionario[\"PK\"] = \"Primary Key\"\nprint(diccionario)\nprint(\n    \"\"\"\\n\nRemover un elemento especificando llave,\ncon función pop()\n      \"\"\"\n)\ndiccionario.pop(\"IDE\")\nprint(diccionario)",
+        "detail": "05-colecciones.5-6-diccionarios",
+        "documentation": {}
+    },
+    {
+        "label": "mi_funcion",
+        "kind": 2,
+        "importPath": "06-funciones.6-1-funciones",
+        "description": "06-funciones.6-1-funciones",
+        "peekOfCode": "def mi_funcion():\n    print(\"\\nSaludos desde mi función...\")\ndef saludo(nombre, apellido):\n    print(f\"\\nHola\")\n    print(f\"\\nBienvenid@ {nombre} {apellido}\\n\")\n# Fin de definición - declaración de funciones\nmi_funcion()\nsaludo(\"César\", \"Vargas\")\nsaludo(\"Vanessa\", \"Vargas Cortez\")",
+        "detail": "06-funciones.6-1-funciones",
+        "documentation": {}
+    },
+    {
+        "label": "saludo",
+        "kind": 2,
+        "importPath": "06-funciones.6-1-funciones",
+        "description": "06-funciones.6-1-funciones",
+        "peekOfCode": "def saludo(nombre, apellido):\n    print(f\"\\nHola\")\n    print(f\"\\nBienvenid@ {nombre} {apellido}\\n\")\n# Fin de definición - declaración de funciones\nmi_funcion()\nsaludo(\"César\", \"Vargas\")\nsaludo(\"Vanessa\", \"Vargas Cortez\")",
+        "detail": "06-funciones.6-1-funciones",
+        "documentation": {}
+    },
+    {
+        "label": "calcular_impuesto",
+        "kind": 2,
+        "importPath": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "description": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "peekOfCode": "def calcular_impuesto(pago_sin_impuesto, impuesto):\n    pago_total = pago_sin_impuesto + (pago_sin_impuesto * (impuesto / 100))\n    return pago_total\npago_sin_impuesto = float(input(\"Ingrese pago sin impuesto: \"))\nimpuesto = float(input(\"Proporcione el monto del impuesto: \"))\npago_total = calcular_impuesto(pago_sin_impuesto, impuesto)\nprint(\n    f\"Pago sin impuesto: {pago_sin_impuesto} - Monto del impuesto: {impuesto} - Pago total: {pago_total}\"\n)",
+        "detail": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "documentation": {}
+    },
+    {
+        "label": "pago_sin_impuesto",
+        "kind": 5,
+        "importPath": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "description": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "peekOfCode": "pago_sin_impuesto = float(input(\"Ingrese pago sin impuesto: \"))\nimpuesto = float(input(\"Proporcione el monto del impuesto: \"))\npago_total = calcular_impuesto(pago_sin_impuesto, impuesto)\nprint(\n    f\"Pago sin impuesto: {pago_sin_impuesto} - Monto del impuesto: {impuesto} - Pago total: {pago_total}\"\n)",
+        "detail": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "documentation": {}
+    },
+    {
+        "label": "impuesto",
+        "kind": 5,
+        "importPath": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "description": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "peekOfCode": "impuesto = float(input(\"Proporcione el monto del impuesto: \"))\npago_total = calcular_impuesto(pago_sin_impuesto, impuesto)\nprint(\n    f\"Pago sin impuesto: {pago_sin_impuesto} - Monto del impuesto: {impuesto} - Pago total: {pago_total}\"\n)",
+        "detail": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "documentation": {}
+    },
+    {
+        "label": "pago_total",
+        "kind": 5,
+        "importPath": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "description": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "peekOfCode": "pago_total = calcular_impuesto(pago_sin_impuesto, impuesto)\nprint(\n    f\"Pago sin impuesto: {pago_sin_impuesto} - Monto del impuesto: {impuesto} - Pago total: {pago_total}\"\n)",
+        "detail": "06-funciones.6-10-ejercicio-calculadora-impuestos",
+        "documentation": {}
+    },
+    {
+        "label": "calcularFahrenheit",
+        "kind": 2,
+        "importPath": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "description": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "peekOfCode": "def calcularFahrenheit(celcius):\n    return celcius * 1.8 + 32\ndef calcularCelcius(fahrenheit):\n    return (fahrenheit - 32) / 1.8\ngrados_celcius = float(input(\"Ingrese grados celcius:   \"))\ngrados_fahrenheit = float(input(\"Ingrese grados fahrenheit:   \"))\ncon_fahrenheit = calcularFahrenheit(grados_celcius)\ncon_celcius = calcularCelcius(grados_fahrenheit)\nprint(f\"Celcius: {grados_celcius} = Fahrenheit: {con_fahrenheit}\")\nprint(f\"Fahrenheit: {grados_fahrenheit} = Celcius: {con_celcius}\")",
+        "detail": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "documentation": {}
+    },
+    {
+        "label": "calcularCelcius",
+        "kind": 2,
+        "importPath": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "description": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "peekOfCode": "def calcularCelcius(fahrenheit):\n    return (fahrenheit - 32) / 1.8\ngrados_celcius = float(input(\"Ingrese grados celcius:   \"))\ngrados_fahrenheit = float(input(\"Ingrese grados fahrenheit:   \"))\ncon_fahrenheit = calcularFahrenheit(grados_celcius)\ncon_celcius = calcularCelcius(grados_fahrenheit)\nprint(f\"Celcius: {grados_celcius} = Fahrenheit: {con_fahrenheit}\")\nprint(f\"Fahrenheit: {grados_fahrenheit} = Celcius: {con_celcius}\")",
+        "detail": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "documentation": {}
+    },
+    {
+        "label": "grados_celcius",
+        "kind": 5,
+        "importPath": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "description": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "peekOfCode": "grados_celcius = float(input(\"Ingrese grados celcius:   \"))\ngrados_fahrenheit = float(input(\"Ingrese grados fahrenheit:   \"))\ncon_fahrenheit = calcularFahrenheit(grados_celcius)\ncon_celcius = calcularCelcius(grados_fahrenheit)\nprint(f\"Celcius: {grados_celcius} = Fahrenheit: {con_fahrenheit}\")\nprint(f\"Fahrenheit: {grados_fahrenheit} = Celcius: {con_celcius}\")",
+        "detail": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "documentation": {}
+    },
+    {
+        "label": "grados_fahrenheit",
+        "kind": 5,
+        "importPath": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "description": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "peekOfCode": "grados_fahrenheit = float(input(\"Ingrese grados fahrenheit:   \"))\ncon_fahrenheit = calcularFahrenheit(grados_celcius)\ncon_celcius = calcularCelcius(grados_fahrenheit)\nprint(f\"Celcius: {grados_celcius} = Fahrenheit: {con_fahrenheit}\")\nprint(f\"Fahrenheit: {grados_fahrenheit} = Celcius: {con_celcius}\")",
+        "detail": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "documentation": {}
+    },
+    {
+        "label": "con_fahrenheit",
+        "kind": 5,
+        "importPath": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "description": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "peekOfCode": "con_fahrenheit = calcularFahrenheit(grados_celcius)\ncon_celcius = calcularCelcius(grados_fahrenheit)\nprint(f\"Celcius: {grados_celcius} = Fahrenheit: {con_fahrenheit}\")\nprint(f\"Fahrenheit: {grados_fahrenheit} = Celcius: {con_celcius}\")",
+        "detail": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "documentation": {}
+    },
+    {
+        "label": "con_celcius",
+        "kind": 5,
+        "importPath": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "description": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "peekOfCode": "con_celcius = calcularCelcius(grados_fahrenheit)\nprint(f\"Celcius: {grados_celcius} = Fahrenheit: {con_fahrenheit}\")\nprint(f\"Fahrenheit: {grados_fahrenheit} = Celcius: {con_celcius}\")",
+        "detail": "06-funciones.6-11-convertir-celcius-fahrenheit",
+        "documentation": {}
+    },
+    {
+        "label": "sumar",
+        "kind": 2,
+        "importPath": "06-funciones.6-2-fun-palabra-return",
+        "description": "06-funciones.6-2-fun-palabra-return",
+        "peekOfCode": "def sumar(a, b):\n    return a + b\nresultado = sumar(5, 3)\nprint(f'Resultado de la suma: {resultado}')\nprint(sumar(5, 5))",
+        "detail": "06-funciones.6-2-fun-palabra-return",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "06-funciones.6-2-fun-palabra-return",
+        "description": "06-funciones.6-2-fun-palabra-return",
+        "peekOfCode": "resultado = sumar(5, 3)\nprint(f'Resultado de la suma: {resultado}')\nprint(sumar(5, 5))",
+        "detail": "06-funciones.6-2-fun-palabra-return",
+        "documentation": {}
+    },
+    {
+        "label": "listar_nombres",
+        "kind": 2,
+        "importPath": "06-funciones.6-3-fun-argumentos-variables",
+        "description": "06-funciones.6-3-fun-argumentos-variables",
+        "peekOfCode": "def listar_nombres(*nombres):\n    for nombre in nombres:\n        print(nombre)\nlistar_nombres(\"César\", \"Veronica\", \"Gloria\")\nlistar_nombres(\"Aurelio\", \"Vanessa\", \"Maki\")",
+        "detail": "06-funciones.6-3-fun-argumentos-variables",
+        "documentation": {}
+    },
+    {
+        "label": "restar",
+        "kind": 2,
+        "importPath": "06-funciones.6-3-funciones-valores-default",
+        "description": "06-funciones.6-3-funciones-valores-default",
+        "peekOfCode": "def restar(a=0, b=0) -> int:\n    return a - b\ndef sumar(a=0, b=0):\n    return a + b\nresultado = sumar(5, 3)\nresultado_res = restar(5, 3)\nprint(f\"El resultado de la suma con valores por default es: {sumar()}\")\nprint(f\"Resultado de la suma: {resultado}\")\nprint(f\"Resultado de la resta: {resultado_res}\")",
+        "detail": "06-funciones.6-3-funciones-valores-default",
+        "documentation": {}
+    },
+    {
+        "label": "sumar",
+        "kind": 2,
+        "importPath": "06-funciones.6-3-funciones-valores-default",
+        "description": "06-funciones.6-3-funciones-valores-default",
+        "peekOfCode": "def sumar(a=0, b=0):\n    return a + b\nresultado = sumar(5, 3)\nresultado_res = restar(5, 3)\nprint(f\"El resultado de la suma con valores por default es: {sumar()}\")\nprint(f\"Resultado de la suma: {resultado}\")\nprint(f\"Resultado de la resta: {resultado_res}\")",
+        "detail": "06-funciones.6-3-funciones-valores-default",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "06-funciones.6-3-funciones-valores-default",
+        "description": "06-funciones.6-3-funciones-valores-default",
+        "peekOfCode": "resultado = sumar(5, 3)\nresultado_res = restar(5, 3)\nprint(f\"El resultado de la suma con valores por default es: {sumar()}\")\nprint(f\"Resultado de la suma: {resultado}\")\nprint(f\"Resultado de la resta: {resultado_res}\")",
+        "detail": "06-funciones.6-3-funciones-valores-default",
+        "documentation": {}
+    },
+    {
+        "label": "resultado_res",
+        "kind": 5,
+        "importPath": "06-funciones.6-3-funciones-valores-default",
+        "description": "06-funciones.6-3-funciones-valores-default",
+        "peekOfCode": "resultado_res = restar(5, 3)\nprint(f\"El resultado de la suma con valores por default es: {sumar()}\")\nprint(f\"Resultado de la suma: {resultado}\")\nprint(f\"Resultado de la resta: {resultado_res}\")",
+        "detail": "06-funciones.6-3-funciones-valores-default",
+        "documentation": {}
+    },
+    {
+        "label": "sumar_valores",
+        "kind": 2,
+        "importPath": "06-funciones.6-4-fun-ejer-args",
+        "description": "06-funciones.6-4-fun-ejer-args",
+        "peekOfCode": "def sumar_valores(*args):\n    resultado = 0\n    for valor in args:\n        resultado += valor\n    print(resultado)\ndef restar_valores(*args):\n    resultado = 0\n    for valor in args:\n        resultado -= valor\n    return resultado",
+        "detail": "06-funciones.6-4-fun-ejer-args",
+        "documentation": {}
+    },
+    {
+        "label": "restar_valores",
+        "kind": 2,
+        "importPath": "06-funciones.6-4-fun-ejer-args",
+        "description": "06-funciones.6-4-fun-ejer-args",
+        "peekOfCode": "def restar_valores(*args):\n    resultado = 0\n    for valor in args:\n        resultado -= valor\n    return resultado\nresultado_resta = restar_valores(5, 3, 1)\nsumar_valores(10, 5, 12)\nprint(f\"Resultado resta: {resultado_resta}\")",
+        "detail": "06-funciones.6-4-fun-ejer-args",
+        "documentation": {}
+    },
+    {
+        "label": "resultado_resta",
+        "kind": 5,
+        "importPath": "06-funciones.6-4-fun-ejer-args",
+        "description": "06-funciones.6-4-fun-ejer-args",
+        "peekOfCode": "resultado_resta = restar_valores(5, 3, 1)\nsumar_valores(10, 5, 12)\nprint(f\"Resultado resta: {resultado_resta}\")",
+        "detail": "06-funciones.6-4-fun-ejer-args",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicar",
+        "kind": 2,
+        "importPath": "06-funciones.6-5-fun-ejer-args2",
+        "description": "06-funciones.6-5-fun-ejer-args2",
+        "peekOfCode": "def multiplicar(*args):\n    resultado = 1\n    for valor in args:\n        resultado *= valor\n    return resultado\nprint(f\"Resultado multiplicación: {multiplicar(5,4,2)}\")",
+        "detail": "06-funciones.6-5-fun-ejer-args2",
+        "documentation": {}
+    },
+    {
+        "label": "listar_terminos",
+        "kind": 2,
+        "importPath": "06-funciones.6-6-fun-arg-clave-valor",
+        "description": "06-funciones.6-6-fun-arg-clave-valor",
+        "peekOfCode": "def listar_terminos(**kargs):\n    for llave, valor in kargs.items():\n        print(f\"{llave} : {valor}\")\ndiccionario = {\n    \"IDE\": \"Integrated Development Environment\",\n    \"OOP\": \"Object Oriented Programming\",\n    \"DBMS\": \"Database Management System\",\n}\nlistar_terminos(\n    IDE=\"Integrated Development Environment\", DBMS=\"Database Management System\"",
+        "detail": "06-funciones.6-6-fun-arg-clave-valor",
+        "documentation": {}
+    },
+    {
+        "label": "diccionario",
+        "kind": 5,
+        "importPath": "06-funciones.6-6-fun-arg-clave-valor",
+        "description": "06-funciones.6-6-fun-arg-clave-valor",
+        "peekOfCode": "diccionario = {\n    \"IDE\": \"Integrated Development Environment\",\n    \"OOP\": \"Object Oriented Programming\",\n    \"DBMS\": \"Database Management System\",\n}\nlistar_terminos(\n    IDE=\"Integrated Development Environment\", DBMS=\"Database Management System\"\n)\nlistar_terminos(\n    OOP=\"Object Oriented Programming\",",
+        "detail": "06-funciones.6-6-fun-arg-clave-valor",
+        "documentation": {}
+    },
+    {
+        "label": "desplegar_nombres",
+        "kind": 2,
+        "importPath": "06-funciones.6-7-fun-diferentes-pasos-argumentos",
+        "description": "06-funciones.6-7-fun-diferentes-pasos-argumentos",
+        "peekOfCode": "def desplegar_nombres(nombres):\n    for nombre in nombres:\n        print(nombre)\nnombres = [\"Juan\", \"Karla\", \"Guillermo\"]\ndesplegar_nombres(nombres)\ndesplegar_nombres(\"Carlos\")\nprint(\"\\n\")\ndesplegar_nombres({10, 3})\nprint(\"\\n\")\ndesplegar_nombres([7, 3])",
+        "detail": "06-funciones.6-7-fun-diferentes-pasos-argumentos",
+        "documentation": {}
+    },
+    {
+        "label": "nombres",
+        "kind": 5,
+        "importPath": "06-funciones.6-7-fun-diferentes-pasos-argumentos",
+        "description": "06-funciones.6-7-fun-diferentes-pasos-argumentos",
+        "peekOfCode": "nombres = [\"Juan\", \"Karla\", \"Guillermo\"]\ndesplegar_nombres(nombres)\ndesplegar_nombres(\"Carlos\")\nprint(\"\\n\")\ndesplegar_nombres({10, 3})\nprint(\"\\n\")\ndesplegar_nombres([7, 3])\nprint(\"\\n\")\ndesplegar_nombres((1, 2))",
+        "detail": "06-funciones.6-7-fun-diferentes-pasos-argumentos",
+        "documentation": {}
+    },
+    {
+        "label": "buscar_factorial",
+        "kind": 2,
+        "importPath": "06-funciones.6-8-funciones-recursivas",
+        "description": "06-funciones.6-8-funciones-recursivas",
+        "peekOfCode": "def buscar_factorial(numero):\n    if numero == 1:\n        return 1\n    else:\n        return numero * buscar_factorial(numero - 1)\nprint(f\"El factorial de {factorial} es: {buscar_factorial(factorial)}\")",
+        "detail": "06-funciones.6-8-funciones-recursivas",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 5,
+        "importPath": "06-funciones.6-8-funciones-recursivas",
+        "description": "06-funciones.6-8-funciones-recursivas",
+        "peekOfCode": "factorial = int(input(\"Ingrese número para obtener factorial:   \"))\ndef buscar_factorial(numero):\n    if numero == 1:\n        return 1\n    else:\n        return numero * buscar_factorial(numero - 1)\nprint(f\"El factorial de {factorial} es: {buscar_factorial(factorial)}\")",
+        "detail": "06-funciones.6-8-funciones-recursivas",
+        "documentation": {}
+    },
+    {
+        "label": "imprimir_numero_recursivo",
+        "kind": 2,
+        "importPath": "06-funciones.6-9-ejer-funciones-recursivas",
+        "description": "06-funciones.6-9-ejer-funciones-recursivas",
+        "peekOfCode": "def imprimir_numero_recursivo(numero):\n    if numero >= 1:\n        print(numero)\n        imprimir_numero_recursivo(numero - 1)\n    elif numero == 0:\n        return\n    elif numero <= 0:\n        print(\"Valor incorrecto... \")\ndef decremento(numero):\n    if numero < 1:",
+        "detail": "06-funciones.6-9-ejer-funciones-recursivas",
+        "documentation": {}
+    },
+    {
+        "label": "decremento",
+        "kind": 2,
+        "importPath": "06-funciones.6-9-ejer-funciones-recursivas",
+        "description": "06-funciones.6-9-ejer-funciones-recursivas",
+        "peekOfCode": "def decremento(numero):\n    if numero < 1:\n        return \"Ingrese sólo números positivos...\"\n    elif numero == 1:\n        return 1\n    else:\n        return f\"{numero} {decremento(numero - 1)}\"\nimprimir_numero_recursivo(numero_descendente)\nprint(decremento(numero_descendente))",
+        "detail": "06-funciones.6-9-ejer-funciones-recursivas",
+        "documentation": {}
+    },
+    {
+        "label": "numero_descendente",
+        "kind": 5,
+        "importPath": "06-funciones.6-9-ejer-funciones-recursivas",
+        "description": "06-funciones.6-9-ejer-funciones-recursivas",
+        "peekOfCode": "numero_descendente = int(input(\"Ingrese un número: \"))\ndef imprimir_numero_recursivo(numero):\n    if numero >= 1:\n        print(numero)\n        imprimir_numero_recursivo(numero - 1)\n    elif numero == 0:\n        return\n    elif numero <= 0:\n        print(\"Valor incorrecto... \")\ndef decremento(numero):",
+        "detail": "06-funciones.6-9-ejer-funciones-recursivas",
+        "documentation": {}
+    },
+    {
+        "label": "Aritmetica",
+        "kind": 6,
+        "importPath": "07-clases_y_objetos.Aritmetica",
+        "description": "07-clases_y_objetos.Aritmetica",
+        "peekOfCode": "class Aritmetica:\n    \"\"\"\n    Clase aritmrtica para realizar las operaciones de sumar, restar, etx\n    \"\"\"\n    def __init__(self, _operandoA, _operandoB):\n        self.operandoA = _operandoA\n        self.operandoB = _operandoB\n    def sumar(self):\n        return self.operandoA + self.operandoB\n    def restar(self):",
+        "detail": "07-clases_y_objetos.Aritmetica",
+        "documentation": {}
+    },
+    {
+        "label": "operA",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Aritmetica",
+        "description": "07-clases_y_objetos.Aritmetica",
+        "peekOfCode": "operA = int(input(\"Ingresa primer digito: \"))\noperB = int(input(\"Ingresa segunfo digito: \"))\naritmetica1 = Aritmetica(operA, operB)\nprint(f\"Resultado de suma: {aritmetica1.sumar()}\")\nprint(f\"Resultado de resta: {aritmetica1.restar()}\")\nprint(f\"Resultado de multiplicación: {aritmetica1.multiplicar()}\")\nprint(f\"Resultado de división: {aritmetica1.dividir():.2f}\")",
+        "detail": "07-clases_y_objetos.Aritmetica",
+        "documentation": {}
+    },
+    {
+        "label": "operB",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Aritmetica",
+        "description": "07-clases_y_objetos.Aritmetica",
+        "peekOfCode": "operB = int(input(\"Ingresa segunfo digito: \"))\naritmetica1 = Aritmetica(operA, operB)\nprint(f\"Resultado de suma: {aritmetica1.sumar()}\")\nprint(f\"Resultado de resta: {aritmetica1.restar()}\")\nprint(f\"Resultado de multiplicación: {aritmetica1.multiplicar()}\")\nprint(f\"Resultado de división: {aritmetica1.dividir():.2f}\")",
+        "detail": "07-clases_y_objetos.Aritmetica",
+        "documentation": {}
+    },
+    {
+        "label": "aritmetica1",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Aritmetica",
+        "description": "07-clases_y_objetos.Aritmetica",
+        "peekOfCode": "aritmetica1 = Aritmetica(operA, operB)\nprint(f\"Resultado de suma: {aritmetica1.sumar()}\")\nprint(f\"Resultado de resta: {aritmetica1.restar()}\")\nprint(f\"Resultado de multiplicación: {aritmetica1.multiplicar()}\")\nprint(f\"Resultado de división: {aritmetica1.dividir():.2f}\")",
+        "detail": "07-clases_y_objetos.Aritmetica",
+        "documentation": {}
+    },
+    {
+        "label": "Cubo",
+        "kind": 6,
+        "importPath": "07-clases_y_objetos.Cubo",
+        "description": "07-clases_y_objetos.Cubo",
+        "peekOfCode": "class Cubo:\n    def __init__(self, _ancho, _alto, _profundidad):\n        self.ancho = _ancho\n        self.alto = _alto\n        self.profundidad = _profundidad\n    def calcular_volumen(self):\n        return self.ancho * self.alto * self.profundidad\n    def mostrar_resultados(self):\n        return f\"El volumen es: {self.calcular_volumen()}\"\nancho = float(input(\"Ingresa el ancho del cubo:  \"))",
+        "detail": "07-clases_y_objetos.Cubo",
+        "documentation": {}
+    },
+    {
+        "label": "ancho",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Cubo",
+        "description": "07-clases_y_objetos.Cubo",
+        "peekOfCode": "ancho = float(input(\"Ingresa el ancho del cubo:  \"))\nalto = float(input(\"Ingresa el alto del cubo:  \"))\nprofundidad = float(input(\"Ingresa el profundidad del cubo:  \"))\ncubo1 = Cubo(ancho, alto, profundidad)\nprint(cubo1.mostrar_resultados())",
+        "detail": "07-clases_y_objetos.Cubo",
+        "documentation": {}
+    },
+    {
+        "label": "alto",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Cubo",
+        "description": "07-clases_y_objetos.Cubo",
+        "peekOfCode": "alto = float(input(\"Ingresa el alto del cubo:  \"))\nprofundidad = float(input(\"Ingresa el profundidad del cubo:  \"))\ncubo1 = Cubo(ancho, alto, profundidad)\nprint(cubo1.mostrar_resultados())",
+        "detail": "07-clases_y_objetos.Cubo",
+        "documentation": {}
+    },
+    {
+        "label": "profundidad",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Cubo",
+        "description": "07-clases_y_objetos.Cubo",
+        "peekOfCode": "profundidad = float(input(\"Ingresa el profundidad del cubo:  \"))\ncubo1 = Cubo(ancho, alto, profundidad)\nprint(cubo1.mostrar_resultados())",
+        "detail": "07-clases_y_objetos.Cubo",
+        "documentation": {}
+    },
+    {
+        "label": "cubo1",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Cubo",
+        "description": "07-clases_y_objetos.Cubo",
+        "peekOfCode": "cubo1 = Cubo(ancho, alto, profundidad)\nprint(cubo1.mostrar_resultados())",
+        "detail": "07-clases_y_objetos.Cubo",
+        "documentation": {}
+    },
+    {
+        "label": "Persona",
+        "kind": 6,
+        "importPath": "07-clases_y_objetos.Persona",
+        "description": "07-clases_y_objetos.Persona",
+        "peekOfCode": "class Persona:\n    # Atribuitos de clase\n    def __init__(self, _nombre, _apellido, _edad, *_valores, **_terminos):\n        self.nombre = _nombre\n        self.apellido = _apellido\n        self.edad = _edad\n        self.valores = _valores\n        self.terminos = _terminos\n    # la palabra self pasa la referencia de los valores asignados a los atributos de la clase\n    def mostrar_detalle(self):",
+        "detail": "07-clases_y_objetos.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Persona",
+        "description": "07-clases_y_objetos.Persona",
+        "peekOfCode": "persona1 = Persona(\"César\", \"Varela\", 43, \"Av. Oyamel\", 250, m=\"manzana\", p=\"pera\")\npersona2 = Persona(\"Verónica\", \"Cortez\", 43)\npersona3 = Persona(\"Vanessa\", \"Varela Corrales\", 15)\nprint(\n    f\"\"\"\n    --- Objeto 1 ---\n    Nombre: {persona1.nombre}\n    Apellido: {persona1.apellido}\n    Edad: {persona1.edad}\n    \"\"\"",
+        "detail": "07-clases_y_objetos.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona2",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Persona",
+        "description": "07-clases_y_objetos.Persona",
+        "peekOfCode": "persona2 = Persona(\"Verónica\", \"Cortez\", 43)\npersona3 = Persona(\"Vanessa\", \"Varela Corrales\", 15)\nprint(\n    f\"\"\"\n    --- Objeto 1 ---\n    Nombre: {persona1.nombre}\n    Apellido: {persona1.apellido}\n    Edad: {persona1.edad}\n    \"\"\"\n)",
+        "detail": "07-clases_y_objetos.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona3",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Persona",
+        "description": "07-clases_y_objetos.Persona",
+        "peekOfCode": "persona3 = Persona(\"Vanessa\", \"Varela Corrales\", 15)\nprint(\n    f\"\"\"\n    --- Objeto 1 ---\n    Nombre: {persona1.nombre}\n    Apellido: {persona1.apellido}\n    Edad: {persona1.edad}\n    \"\"\"\n)\nprint(\"\\nCambiando los valores del objeto 1\")",
+        "detail": "07-clases_y_objetos.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1.nombre",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Persona",
+        "description": "07-clases_y_objetos.Persona",
+        "peekOfCode": "persona1.nombre = \"Gloria\"\npersona1.apellido = \"Varela Corrales\"\npersona1.edad = 22\npersona1.telefono = \"556581111\"\n# Mandando llamar el méto mostrar_detalle usando\n# la referencia de un objeto a traves la llamada de la clase\n# -->  print(Persona.mostrar_detalle(persona3))\nprint(persona1.mostrar_detalle())\nprint(persona2.mostrar_detalle())\nprint(Persona.mostrar_detalle(persona3))",
+        "detail": "07-clases_y_objetos.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1.apellido",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Persona",
+        "description": "07-clases_y_objetos.Persona",
+        "peekOfCode": "persona1.apellido = \"Varela Corrales\"\npersona1.edad = 22\npersona1.telefono = \"556581111\"\n# Mandando llamar el méto mostrar_detalle usando\n# la referencia de un objeto a traves la llamada de la clase\n# -->  print(Persona.mostrar_detalle(persona3))\nprint(persona1.mostrar_detalle())\nprint(persona2.mostrar_detalle())\nprint(Persona.mostrar_detalle(persona3))\nprint(f\"Telefono instancia 1:  {persona1.telefono}\")",
+        "detail": "07-clases_y_objetos.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1.edad",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Persona",
+        "description": "07-clases_y_objetos.Persona",
+        "peekOfCode": "persona1.edad = 22\npersona1.telefono = \"556581111\"\n# Mandando llamar el méto mostrar_detalle usando\n# la referencia de un objeto a traves la llamada de la clase\n# -->  print(Persona.mostrar_detalle(persona3))\nprint(persona1.mostrar_detalle())\nprint(persona2.mostrar_detalle())\nprint(Persona.mostrar_detalle(persona3))\nprint(f\"Telefono instancia 1:  {persona1.telefono}\")",
+        "detail": "07-clases_y_objetos.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1.telefono",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Persona",
+        "description": "07-clases_y_objetos.Persona",
+        "peekOfCode": "persona1.telefono = \"556581111\"\n# Mandando llamar el méto mostrar_detalle usando\n# la referencia de un objeto a traves la llamada de la clase\n# -->  print(Persona.mostrar_detalle(persona3))\nprint(persona1.mostrar_detalle())\nprint(persona2.mostrar_detalle())\nprint(Persona.mostrar_detalle(persona3))\nprint(f\"Telefono instancia 1:  {persona1.telefono}\")",
+        "detail": "07-clases_y_objetos.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangulo",
+        "kind": 6,
+        "importPath": "07-clases_y_objetos.Rectangulo",
+        "description": "07-clases_y_objetos.Rectangulo",
+        "peekOfCode": "class Rectangulo:\n    def __init__(self, _base, _altura):\n        self.base = _base\n        self.altura = _altura\n    def calcular_area(self):\n        return self.base * self.altura\n    def mostrarResultado(self):\n        return f\"El área del rectángulo es: {self.calcular_area()}\"\nbase = int(input(\"Ingresa base del rectángulo:   \"))\naltura = int(input(\"Ingresa altura del rectángulo:   \"))",
+        "detail": "07-clases_y_objetos.Rectangulo",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Rectangulo",
+        "description": "07-clases_y_objetos.Rectangulo",
+        "peekOfCode": "base = int(input(\"Ingresa base del rectángulo:   \"))\naltura = int(input(\"Ingresa altura del rectángulo:   \"))\nrectangulo1 = Rectangulo(base, altura)\nprint(rectangulo1.mostrarResultado())",
+        "detail": "07-clases_y_objetos.Rectangulo",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Rectangulo",
+        "description": "07-clases_y_objetos.Rectangulo",
+        "peekOfCode": "altura = int(input(\"Ingresa altura del rectángulo:   \"))\nrectangulo1 = Rectangulo(base, altura)\nprint(rectangulo1.mostrarResultado())",
+        "detail": "07-clases_y_objetos.Rectangulo",
+        "documentation": {}
+    },
+    {
+        "label": "rectangulo1",
+        "kind": 5,
+        "importPath": "07-clases_y_objetos.Rectangulo",
+        "description": "07-clases_y_objetos.Rectangulo",
+        "peekOfCode": "rectangulo1 = Rectangulo(base, altura)\nprint(rectangulo1.mostrarResultado())",
+        "detail": "07-clases_y_objetos.Rectangulo",
+        "documentation": {}
+    },
+    {
+        "label": "Persona",
+        "kind": 6,
+        "importPath": "08-encapsulamiento.Persona",
+        "description": "08-encapsulamiento.Persona",
+        "peekOfCode": "class Persona:\n    # Atribuitos de clase\n    def __init__(self, nombre, apellido, edad):\n        self._nombre = nombre\n        self._apellido = apellido\n        self._edad = edad\n    #  Declaración de métodos getters\n    @property\n    def nombre(self):\n        return self._nombre",
+        "detail": "08-encapsulamiento.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1",
+        "kind": 5,
+        "importPath": "08-encapsulamiento.Persona",
+        "description": "08-encapsulamiento.Persona",
+        "peekOfCode": "persona1 = Persona(\"Verónica\", \"Cortez\", 43)\npersona2 = Persona(\"Vanessa\", \"Varela Corrales\", 15)\n# print(persona1.nombre())\n# Uso de métodos set para modificar valores de los atributos\npersona1.nombre = \"Veróniquilla\"\npersona1.apellido = \"Cordoba Juaréz\"\npersona1.edad = 18\n# Comprobación de módulo principal \"main\"\n# La comprobación sirve para probar el código y sobretodo sí es\n# un módulo que se va a importar",
+        "detail": "08-encapsulamiento.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona2",
+        "kind": 5,
+        "importPath": "08-encapsulamiento.Persona",
+        "description": "08-encapsulamiento.Persona",
+        "peekOfCode": "persona2 = Persona(\"Vanessa\", \"Varela Corrales\", 15)\n# print(persona1.nombre())\n# Uso de métodos set para modificar valores de los atributos\npersona1.nombre = \"Veróniquilla\"\npersona1.apellido = \"Cordoba Juaréz\"\npersona1.edad = 18\n# Comprobación de módulo principal \"main\"\n# La comprobación sirve para probar el código y sobretodo sí es\n# un módulo que se va a importar\n# Al ejecutar la clase se va a ejecutar el código",
+        "detail": "08-encapsulamiento.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1.nombre",
+        "kind": 5,
+        "importPath": "08-encapsulamiento.Persona",
+        "description": "08-encapsulamiento.Persona",
+        "peekOfCode": "persona1.nombre = \"Veróniquilla\"\npersona1.apellido = \"Cordoba Juaréz\"\npersona1.edad = 18\n# Comprobación de módulo principal \"main\"\n# La comprobación sirve para probar el código y sobretodo sí es\n# un módulo que se va a importar\n# Al ejecutar la clase se va a ejecutar el código\n# pero al importar el módulo/clase, el código que se encuentra\n# en este módulo ya no se va a importar\nif __name__ == \"__main__\":",
+        "detail": "08-encapsulamiento.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1.apellido",
+        "kind": 5,
+        "importPath": "08-encapsulamiento.Persona",
+        "description": "08-encapsulamiento.Persona",
+        "peekOfCode": "persona1.apellido = \"Cordoba Juaréz\"\npersona1.edad = 18\n# Comprobación de módulo principal \"main\"\n# La comprobación sirve para probar el código y sobretodo sí es\n# un módulo que se va a importar\n# Al ejecutar la clase se va a ejecutar el código\n# pero al importar el módulo/clase, el código que se encuentra\n# en este módulo ya no se va a importar\nif __name__ == \"__main__\":\n    print(persona1.mostrar_detalle())",
+        "detail": "08-encapsulamiento.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1.edad",
+        "kind": 5,
+        "importPath": "08-encapsulamiento.Persona",
+        "description": "08-encapsulamiento.Persona",
+        "peekOfCode": "persona1.edad = 18\n# Comprobación de módulo principal \"main\"\n# La comprobación sirve para probar el código y sobretodo sí es\n# un módulo que se va a importar\n# Al ejecutar la clase se va a ejecutar el código\n# pero al importar el módulo/clase, el código que se encuentra\n# en este módulo ya no se va a importar\nif __name__ == \"__main__\":\n    print(persona1.mostrar_detalle())\n    # print(persona2.mostrar_detalle())",
+        "detail": "08-encapsulamiento.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1",
+        "kind": 5,
+        "importPath": "08-encapsulamiento.PruebaPersona",
+        "description": "08-encapsulamiento.PruebaPersona",
+        "peekOfCode": "persona1 = Persona(\"Víctor\",\"Mejía\", 16)\nprint(persona1.mostrar_detalle())\nprint(\" Eliminación de objetos \".center(30, \"*\"))\ndel persona1\n# print(__name__)",
+        "detail": "08-encapsulamiento.PruebaPersona",
+        "documentation": {}
+    },
+    {
+        "label": "Bicicleta",
+        "kind": 6,
+        "importPath": "09-herencia.ejercicio_poo.Bicicleta",
+        "description": "09-herencia.ejercicio_poo.Bicicleta",
+        "peekOfCode": "class Bicicleta(Vehiculo):\n    def __init__(self, color, ruedas, tipo):\n        super().__init__(color, ruedas)\n        self.tipo = tipo\n    def __str__(self):\n        return (\n            f\"Caracteristicas de bicicleta:\\n \\t-Tipo: {self.tipo} - {super().__str__()} \"\n        )\nif __name__ == \"__main__\":\n    bicicleta1 = Bicicleta(\"Azul\", 2, \"Montaña\")",
+        "detail": "09-herencia.ejercicio_poo.Bicicleta",
+        "documentation": {}
+    },
+    {
+        "label": "Coche",
+        "kind": 6,
+        "importPath": "09-herencia.ejercicio_poo.Coche",
+        "description": "09-herencia.ejercicio_poo.Coche",
+        "peekOfCode": "class Coche(Vehiculo):\n    def __init__(self, color, ruedas, velocidad):\n        super().__init__(color, ruedas)\n        self.velocidad = velocidad\n    def __str__(self):\n        # return f\"Velocidad: [{self.velocidad}] Color: [{super().self.color}] Ruedas: [{super().self.ruedas}]\"\n        return f\"Caracteristicas de coche: \\n\\t-Velocidad: {self.velocidad} km/hr - {super().__str__()} \"\n    # def __str__(self):\n    # return f\"Empleado: [Sueldo: {self.sueldo}] {super().__str__()} \"\nif __name__ == \"__main__\":",
+        "detail": "09-herencia.ejercicio_poo.Coche",
+        "documentation": {}
+    },
+    {
+        "label": "Vehiculo",
+        "kind": 6,
+        "importPath": "09-herencia.ejercicio_poo.Vehiculo",
+        "description": "09-herencia.ejercicio_poo.Vehiculo",
+        "peekOfCode": "class Vehiculo:\n    def __init__(self, color, ruedas):\n        self.color = color\n        self.ruedas = ruedas\n    def __str__(self):\n        return f\"Color: {self.color} - Ruedas: {self.ruedas}\"\nif __name__ == \"__main__\":\n    vehiculo1 = Vehiculo(\"Rojo\", 4)\n    print(vehiculo1)",
+        "detail": "09-herencia.ejercicio_poo.Vehiculo",
+        "documentation": {}
+    },
+    {
+        "label": "persona1",
+        "kind": 5,
+        "importPath": "09-herencia.ClientePersona",
+        "description": "09-herencia.ClientePersona",
+        "peekOfCode": "persona1 = Persona(\"Facundo\", 23)\nempleado1 = Empleado(\"José\", 21, 5000)\nprint(persona1)\nprint(empleado1)",
+        "detail": "09-herencia.ClientePersona",
+        "documentation": {}
+    },
+    {
+        "label": "empleado1",
+        "kind": 5,
+        "importPath": "09-herencia.ClientePersona",
+        "description": "09-herencia.ClientePersona",
+        "peekOfCode": "empleado1 = Empleado(\"José\", 21, 5000)\nprint(persona1)\nprint(empleado1)",
+        "detail": "09-herencia.ClientePersona",
+        "documentation": {}
+    },
+    {
+        "label": "Persona",
+        "kind": 6,
+        "importPath": "09-herencia.Persona",
+        "description": "09-herencia.Persona",
+        "peekOfCode": "class Persona:\n    def __init__(self, nombre, edad):\n        self.nombre = nombre\n        self.edad = edad\n    def __str__(self):\n        return f\"Persona: [Nombre: {self.nombre} - Edad: {self.edad}]\"\nclass Empleado(Persona):\n    def __init__(self, nombre, edad, sueldo):\n        # El método super permite traer los atributos de la clase padre\n        super().__init__(nombre, edad)",
+        "detail": "09-herencia.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "Empleado",
+        "kind": 6,
+        "importPath": "09-herencia.Persona",
+        "description": "09-herencia.Persona",
+        "peekOfCode": "class Empleado(Persona):\n    def __init__(self, nombre, edad, sueldo):\n        # El método super permite traer los atributos de la clase padre\n        super().__init__(nombre, edad)\n        self.sueldo = sueldo\n    def __str__(self):\n        return f\"Empleado: [Sueldo: {self.sueldo}] {super().__str__()} \"\nif __name__ == \"__main__\":\n    empleado1 = Empleado(\"José\", \"Juaréz\", 5000)\n    print(\"\")",
+        "detail": "09-herencia.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "kind": 6,
+        "importPath": "10-herencia-multiple.Color",
+        "description": "10-herencia-multiple.Color",
+        "peekOfCode": "class Color:\n    def __init__(self, color):\n        self._color = color\n        # Método getter\n        @property\n        def color(self):\n            return self._color\n        # Método setter\n        @color.setter\n        def color(self, color):",
+        "detail": "10-herencia-multiple.Color",
+        "documentation": {}
+    },
+    {
+        "label": "Cuadrado",
+        "kind": 6,
+        "importPath": "10-herencia-multiple.Cuadrado",
+        "description": "10-herencia-multiple.Cuadrado",
+        "peekOfCode": "class Cuadrado(FiguraGeometrica, Color):\n    def __init__(self, lado, color):\n        # super.__init__(lado)\n        FiguraGeometrica.__init__(self, lado, lado)\n        Color.__init__(self, color)\n    def calcular_area(self):\n        return self.alto * self.ancho\n    def __str__(self):\n        return (\n            f\"Cuadrado:  {FiguraGeometrica.__str__(self)} {Color.__str__(self)}\"",
+        "detail": "10-herencia-multiple.Cuadrado",
+        "documentation": {}
+    },
+    {
+        "label": "FiguraGeometrica",
+        "kind": 6,
+        "importPath": "10-herencia-multiple.FiguraGeometrica",
+        "description": "10-herencia-multiple.FiguraGeometrica",
+        "peekOfCode": "class FiguraGeometrica:\n    def __init__(self, ancho, alto):\n        if self._validar_valor(ancho):\n            # if 0 < ancho < 10:\n            self._ancho = ancho\n        else:\n            self._ancho = 0\n            print(f\"Valor erroneo ancho: {ancho}\")\n        if self._validar_valor(alto):\n            # if 0 < alto < 10:",
+        "detail": "10-herencia-multiple.FiguraGeometrica",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangulo",
+        "kind": 6,
+        "importPath": "10-herencia-multiple.Rectangulo",
+        "description": "10-herencia-multiple.Rectangulo",
+        "peekOfCode": "class Rectangulo(FiguraGeometrica, Color):\n    def __init__(self, alto, ancho, color):\n        # super.__init__(lado)\n        FiguraGeometrica.__init__(self, alto, ancho)\n        Color.__init__(self, color)\n    def calcular_area(self):\n        return self.alto * self.ancho\n    def __str__(self):\n        return f\"Rectangulo: {FiguraGeometrica.__str__(self)} {Color.__str__(self)}\"\nif __name__ == \"__main__\":",
+        "detail": "10-herencia-multiple.Rectangulo",
+        "documentation": {}
+    },
+    {
+        "label": "fig",
+        "kind": 5,
+        "importPath": "10-herencia-multiple.test_figura_geometrica",
+        "description": "10-herencia-multiple.test_figura_geometrica",
+        "peekOfCode": "fig = FiguraGeometrica(1, 1)\ncuadrado1 = Cuadrado(lado=5, color=\"Rojo\")\nrectangulo1 = Rectangulo(alto=9, ancho=5, color=\"Azul\")\n# print(cuadrado1._alto)\n# print(cuadrado1._ancho)\n# print(cuadrado1._color)\n# print(cuadrado1.calcular_area())\nprint(\" Creación objeto cuadrado \".center(50, \"-\"))\nprint(cuadrado1)\nprint(f\"Calculo del área cuadrado: {cuadrado1.calcular_area()}\")",
+        "detail": "10-herencia-multiple.test_figura_geometrica",
+        "documentation": {}
+    },
+    {
+        "label": "cuadrado1",
+        "kind": 5,
+        "importPath": "10-herencia-multiple.test_figura_geometrica",
+        "description": "10-herencia-multiple.test_figura_geometrica",
+        "peekOfCode": "cuadrado1 = Cuadrado(lado=5, color=\"Rojo\")\nrectangulo1 = Rectangulo(alto=9, ancho=5, color=\"Azul\")\n# print(cuadrado1._alto)\n# print(cuadrado1._ancho)\n# print(cuadrado1._color)\n# print(cuadrado1.calcular_area())\nprint(\" Creación objeto cuadrado \".center(50, \"-\"))\nprint(cuadrado1)\nprint(f\"Calculo del área cuadrado: {cuadrado1.calcular_area()}\")\nprint(\" Creación objeto rectángulo \".center(50, \"-\"))",
+        "detail": "10-herencia-multiple.test_figura_geometrica",
+        "documentation": {}
+    },
+    {
+        "label": "rectangulo1",
+        "kind": 5,
+        "importPath": "10-herencia-multiple.test_figura_geometrica",
+        "description": "10-herencia-multiple.test_figura_geometrica",
+        "peekOfCode": "rectangulo1 = Rectangulo(alto=9, ancho=5, color=\"Azul\")\n# print(cuadrado1._alto)\n# print(cuadrado1._ancho)\n# print(cuadrado1._color)\n# print(cuadrado1.calcular_area())\nprint(\" Creación objeto cuadrado \".center(50, \"-\"))\nprint(cuadrado1)\nprint(f\"Calculo del área cuadrado: {cuadrado1.calcular_area()}\")\nprint(\" Creación objeto rectángulo \".center(50, \"-\"))\nprint(rectangulo1)",
+        "detail": "10-herencia-multiple.test_figura_geometrica",
+        "documentation": {}
+    }
+]
