@@ -7,6 +7,10 @@ def imprimir_detalles(objeto):
     print(type(objeto))
     print(objeto.mostrar_detalles())
 
+    # Se valida si el objeto es una instancia de clase
+    # isinstance recibe como argumentos una instancia y una clase y regresar un booleano(True o False)
+    if isinstance(objeto, Gerente):
+        print(objeto.departamento)
 
 
 empleado = Empleado("Juan", 5000)
