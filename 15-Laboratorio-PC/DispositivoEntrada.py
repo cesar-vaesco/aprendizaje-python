@@ -4,7 +4,7 @@ class DispositivoEntrada:
         self.marca = marca
 
     def __str__(self):
-        return f"- Tipo Entrada: {self.tipo_entrada} \n- Marca: {self.marca}"
+        return f"\n\t- Tipo Entrada: {self.tipo_entrada} \n\t- Marca: {self.marca}"
 
 
 
