@@ -1,11 +1,16 @@
+from NumerosIdenticosException import NumerosIdenticosException
+
 resultado = None
 
 
 try:
     a = int(input("Primer número: "))
     b = int(input("Segundo número: "))
-    resultado = a / b
+    
+    if a == b:
+        raise NumerosIdenticosException("Números identicos")
 
+    resultado = a / b
 # La clase de menor jerarquía de excepciones van al inicio de la llamada de las excepciones
 except ValueError as ve:
     print(f"\nOcurrió un error: {ve} - {type(ve)}")
