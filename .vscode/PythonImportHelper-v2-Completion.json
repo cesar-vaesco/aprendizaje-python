@@ -1,5 +1,77 @@
 [
     {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
         "label": "Persona",
         "importPath": "Persona",
         "description": "Persona",
@@ -101,6 +173,434 @@
         "description": "Rectangulo",
         "isExtraImport": true,
         "detail": "Rectangulo",
+        "documentation": {}
+    },
+    {
+        "label": "MI_CONSTANTE",
+        "importPath": "constantes",
+        "description": "constantes",
+        "isExtraImport": true,
+        "detail": "constantes",
+        "documentation": {}
+    },
+    {
+        "label": "Matematicas",
+        "importPath": "constantes",
+        "description": "constantes",
+        "isExtraImport": true,
+        "detail": "constantes",
+        "documentation": {}
+    },
+    {
+        "label": "Producto",
+        "importPath": "Producto",
+        "description": "Producto",
+        "isExtraImport": true,
+        "detail": "Producto",
+        "documentation": {}
+    },
+    {
+        "label": "Producto",
+        "importPath": "Producto",
+        "description": "Producto",
+        "isExtraImport": true,
+        "detail": "Producto",
+        "documentation": {}
+    },
+    {
+        "label": "Orden",
+        "importPath": "Orden",
+        "description": "Orden",
+        "isExtraImport": true,
+        "detail": "Orden",
+        "documentation": {}
+    },
+    {
+        "label": "Orden",
+        "importPath": "Orden",
+        "description": "Orden",
+        "isExtraImport": true,
+        "detail": "Orden",
+        "documentation": {}
+    },
+    {
+        "label": "Empleado",
+        "importPath": "Empleado",
+        "description": "Empleado",
+        "isExtraImport": true,
+        "detail": "Empleado",
+        "documentation": {}
+    },
+    {
+        "label": "Empleado",
+        "importPath": "Empleado",
+        "description": "Empleado",
+        "isExtraImport": true,
+        "detail": "Empleado",
+        "documentation": {}
+    },
+    {
+        "label": "Gerente",
+        "importPath": "Gerente",
+        "description": "Gerente",
+        "isExtraImport": true,
+        "detail": "Gerente",
+        "documentation": {}
+    },
+    {
+        "label": "Monitor",
+        "importPath": "Monitor",
+        "description": "Monitor",
+        "isExtraImport": true,
+        "detail": "Monitor",
+        "documentation": {}
+    },
+    {
+        "label": "Monitor",
+        "importPath": "Monitor",
+        "description": "Monitor",
+        "isExtraImport": true,
+        "detail": "Monitor",
+        "documentation": {}
+    },
+    {
+        "label": "Raton",
+        "importPath": "Raton",
+        "description": "Raton",
+        "isExtraImport": true,
+        "detail": "Raton",
+        "documentation": {}
+    },
+    {
+        "label": "Raton",
+        "importPath": "Raton",
+        "description": "Raton",
+        "isExtraImport": true,
+        "detail": "Raton",
+        "documentation": {}
+    },
+    {
+        "label": "Teclado",
+        "importPath": "Teclado",
+        "description": "Teclado",
+        "isExtraImport": true,
+        "detail": "Teclado",
+        "documentation": {}
+    },
+    {
+        "label": "Teclado",
+        "importPath": "Teclado",
+        "description": "Teclado",
+        "isExtraImport": true,
+        "detail": "Teclado",
+        "documentation": {}
+    },
+    {
+        "label": "DispositivoEntrada",
+        "importPath": "DispositivoEntrada",
+        "description": "DispositivoEntrada",
+        "isExtraImport": true,
+        "detail": "DispositivoEntrada",
+        "documentation": {}
+    },
+    {
+        "label": "DispositivoEntrada",
+        "importPath": "DispositivoEntrada",
+        "description": "DispositivoEntrada",
+        "isExtraImport": true,
+        "detail": "DispositivoEntrada",
+        "documentation": {}
+    },
+    {
+        "label": "Computadora",
+        "importPath": "Computadora",
+        "description": "Computadora",
+        "isExtraImport": true,
+        "detail": "Computadora",
+        "documentation": {}
+    },
+    {
+        "label": "NumerosIdenticosException",
+        "importPath": "NumerosIdenticosException",
+        "description": "NumerosIdenticosException",
+        "isExtraImport": true,
+        "detail": "NumerosIdenticosException",
+        "documentation": {}
+    },
+    {
+        "label": "ManejoArchivos",
+        "importPath": "manejo_archivos",
+        "description": "manejo_archivos",
+        "isExtraImport": true,
+        "detail": "manejo_archivos",
+        "documentation": {}
+    },
+    {
+        "label": "Pelicula",
+        "importPath": "dominio.Pelicula",
+        "description": "dominio.Pelicula",
+        "isExtraImport": true,
+        "detail": "dominio.Pelicula",
+        "documentation": {}
+    },
+    {
+        "label": "CatalogoPeliculas",
+        "importPath": "servicio.CatalogoPeliculas",
+        "description": "servicio.CatalogoPeliculas",
+        "isExtraImport": true,
+        "detail": "servicio.CatalogoPeliculas",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass\n        tee_f.write(what)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info[0],\n        sys.version_info[1],\n        suffix,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(\"-> %s\\\\%s[%s]=%r\" % (root_key_name, key_name, value_name, value))\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(\"-> DELETE %s\\\\%s[%s]\" % (root_key_name, key_name, value_name))\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n        like file_created to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(\"Failed to unregister COM objects: %s\" % (why,))\n    try:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location):\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError('Path \"{}\" does not exist!'.format(location))\n    return location\ndef main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python pywin32_postinstall.py -install\n    If you installed pywin32 via a .exe installer, this should be run\n    automatically after installation, but if it fails you can run it again.\n    If you installed pywin32 via PIP, you almost certainly need to run this to",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(os.path.join(tempfile.gettempdir(), \"pywin32_postinstall.log\"), \"w\")\nclass Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True\nexcept NameError:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(\"*** Test script '%s' exited with %s\" % (script, result.returncode))\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [this_dir] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "this_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "this_dir = os.path.dirname(__file__)\nsite_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": ".venv.Scripts.pywin32_testall",
         "documentation": {}
     },
     {
@@ -1571,11 +2071,29 @@
         "documentation": {}
     },
     {
+        "label": "Matematicas",
+        "kind": 6,
+        "importPath": "11-contexto-estatico-clases.constantes",
+        "description": "11-contexto-estatico-clases.constantes",
+        "peekOfCode": "class Matematicas:\n    PI = 3.1416",
+        "detail": "11-contexto-estatico-clases.constantes",
+        "documentation": {}
+    },
+    {
+        "label": "MI_CONSTANTE",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.constantes",
+        "description": "11-contexto-estatico-clases.constantes",
+        "peekOfCode": "MI_CONSTANTE = \"Valor de mi constante\"\nclass Matematicas:\n    PI = 3.1416",
+        "detail": "11-contexto-estatico-clases.constantes",
+        "documentation": {}
+    },
+    {
         "label": "MiClase",
         "kind": 6,
         "importPath": "11-contexto-estatico-clases.MiClase",
         "description": "11-contexto-estatico-clases.MiClase",
-        "peekOfCode": "class MiClase:\n    variable_clase = \"Valor variable clase\"\n    def __init__(self, variable_instancia):\n        self.variable_instancia = variable_instancia\n# Accediendo variable de clase\nprint(MiClase.variable_clase)\n# Accediendo variable de clase\nmi_clase = MiClase(\"Valor variable de instancia\")\nprint(mi_clase.variable_instancia)",
+        "peekOfCode": "class MiClase:\n    variable_clase = \"Valor variable clase\"\n    contador = 0\n    # Los métodos de clase pueden usar información de la clase -recibe referencias de la clase\n    @classmethod\n    def metodo_clase(cls):\n        print( f\"Método de clase: {cls.variable_clase}\")\n    # Método estatico -> se asocian a la clase pero no recibe\n    # información de la clase (no se puede usar atributos de la clase), no hay referencias de la clase\n    @staticmethod",
         "detail": "11-contexto-estatico-clases.MiClase",
         "documentation": {}
     },
@@ -1584,8 +2102,566 @@
         "kind": 5,
         "importPath": "11-contexto-estatico-clases.MiClase",
         "description": "11-contexto-estatico-clases.MiClase",
-        "peekOfCode": "mi_clase = MiClase(\"Valor variable de instancia\")\nprint(mi_clase.variable_instancia)",
+        "peekOfCode": "mi_clase = MiClase(\"Valor variable de instancia\")\nmi_clase2 = MiClase(\"Segunda instancia\")\nMiClase.variable_clase2 = \"Variable clase 2\"\nmiObjeto1 = MiClase(\"Variable de instancia\")\nprint(\"1.-Instancia de clase \".center(50, \"*\"))\nprint(f\"Instancia de clase: {mi_clase.variable_instancia}\")\n# Un objeto puede acceder a una variable de clase\nprint(f\"Variable de clase usada por una instancia: {mi_clase.variable_clase}\")\nprint(\"2.-Variable de clase \".center(50, \"*\"))\nprint(f\"Instancias de clase: {MiClase.contador}\")",
         "detail": "11-contexto-estatico-clases.MiClase",
+        "documentation": {}
+    },
+    {
+        "label": "mi_clase2",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.MiClase",
+        "description": "11-contexto-estatico-clases.MiClase",
+        "peekOfCode": "mi_clase2 = MiClase(\"Segunda instancia\")\nMiClase.variable_clase2 = \"Variable clase 2\"\nmiObjeto1 = MiClase(\"Variable de instancia\")\nprint(\"1.-Instancia de clase \".center(50, \"*\"))\nprint(f\"Instancia de clase: {mi_clase.variable_instancia}\")\n# Un objeto puede acceder a una variable de clase\nprint(f\"Variable de clase usada por una instancia: {mi_clase.variable_clase}\")\nprint(\"2.-Variable de clase \".center(50, \"*\"))\nprint(f\"Instancias de clase: {MiClase.contador}\")\nprint(",
+        "detail": "11-contexto-estatico-clases.MiClase",
+        "documentation": {}
+    },
+    {
+        "label": "MiClase.variable_clase2",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.MiClase",
+        "description": "11-contexto-estatico-clases.MiClase",
+        "peekOfCode": "MiClase.variable_clase2 = \"Variable clase 2\"\nmiObjeto1 = MiClase(\"Variable de instancia\")\nprint(\"1.-Instancia de clase \".center(50, \"*\"))\nprint(f\"Instancia de clase: {mi_clase.variable_instancia}\")\n# Un objeto puede acceder a una variable de clase\nprint(f\"Variable de clase usada por una instancia: {mi_clase.variable_clase}\")\nprint(\"2.-Variable de clase \".center(50, \"*\"))\nprint(f\"Instancias de clase: {MiClase.contador}\")\nprint(\n    f\"Variable clase de clase 2 accediendo desde instancia: {mi_clase.variable_clase2}\"",
+        "detail": "11-contexto-estatico-clases.MiClase",
+        "documentation": {}
+    },
+    {
+        "label": "miObjeto1",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.MiClase",
+        "description": "11-contexto-estatico-clases.MiClase",
+        "peekOfCode": "miObjeto1 = MiClase(\"Variable de instancia\")\nprint(\"1.-Instancia de clase \".center(50, \"*\"))\nprint(f\"Instancia de clase: {mi_clase.variable_instancia}\")\n# Un objeto puede acceder a una variable de clase\nprint(f\"Variable de clase usada por una instancia: {mi_clase.variable_clase}\")\nprint(\"2.-Variable de clase \".center(50, \"*\"))\nprint(f\"Instancias de clase: {MiClase.contador}\")\nprint(\n    f\"Variable clase de clase 2 accediendo desde instancia: {mi_clase.variable_clase2}\"\n)",
+        "detail": "11-contexto-estatico-clases.MiClase",
+        "documentation": {}
+    },
+    {
+        "label": "Persona",
+        "kind": 6,
+        "importPath": "11-contexto-estatico-clases.Persona",
+        "description": "11-contexto-estatico-clases.Persona",
+        "peekOfCode": "class Persona:\n    contador_personas = 0\n    @classmethod\n    def generar_siguiente_valor(cls):\n        cls.contador_personas += 1\n        return cls.contador_personas\n    def __init__(self, nombre, edad):\n        self.id_persona = Persona.generar_siguiente_valor()\n        self.nombre = nombre\n        self.edad = edad",
+        "detail": "11-contexto-estatico-clases.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.Persona",
+        "description": "11-contexto-estatico-clases.Persona",
+        "peekOfCode": "persona1 = Persona(\"Jacinto\", 42)\npersona2 = Persona(\"Jaci\", 42)\npersona3 = Persona(\"Joaquí\", 35)\nprint(persona1)\nprint(persona2)\nprint(persona3)\nprint(f\"Instancias de clase: {Persona.contador_personas}\")",
+        "detail": "11-contexto-estatico-clases.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona2",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.Persona",
+        "description": "11-contexto-estatico-clases.Persona",
+        "peekOfCode": "persona2 = Persona(\"Jaci\", 42)\npersona3 = Persona(\"Joaquí\", 35)\nprint(persona1)\nprint(persona2)\nprint(persona3)\nprint(f\"Instancias de clase: {Persona.contador_personas}\")",
+        "detail": "11-contexto-estatico-clases.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona3",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.Persona",
+        "description": "11-contexto-estatico-clases.Persona",
+        "peekOfCode": "persona3 = Persona(\"Joaquí\", 35)\nprint(persona1)\nprint(persona2)\nprint(persona3)\nprint(f\"Instancias de clase: {Persona.contador_personas}\")",
+        "detail": "11-contexto-estatico-clases.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "MI_CONSTANTE",
+        "kind": 5,
+        "importPath": "11-contexto-estatico-clases.test_constantes",
+        "description": "11-contexto-estatico-clases.test_constantes",
+        "peekOfCode": "MI_CONSTANTE = \"Nuevo Valor\"\nprint(f\"Valor de constante:  {MI_CONSTANTE}\")\nprint(Mate.PI)",
+        "detail": "11-contexto-estatico-clases.test_constantes",
+        "documentation": {}
+    },
+    {
+        "label": "Orden",
+        "kind": 6,
+        "importPath": "12-disenhio_clases.Orden",
+        "description": "12-disenhio_clases.Orden",
+        "peekOfCode": "class Orden:\n    contador_ordenes = 0\n    def __init__(self, productos):\n        Orden.contador_ordenes += 1\n        self._id_orden = Orden.contador_ordenes\n        self._productos = list(productos)\n    def agregar_producto(self, producto):\n        self._productos.append(producto)\n    def calcular_total(self):\n        total = 0",
+        "detail": "12-disenhio_clases.Orden",
+        "documentation": {}
+    },
+    {
+        "label": "Producto",
+        "kind": 6,
+        "importPath": "12-disenhio_clases.Producto",
+        "description": "12-disenhio_clases.Producto",
+        "peekOfCode": "class Producto:\n    contador_productos = 0\n    def __init__(self, nombre, precio):\n        Producto.contador_productos += 1\n        self._id_producto = Producto.contador_productos\n        self._nombre = nombre\n        self._precio = precio\n    # Getters\n    @property\n    def nombre(self):",
+        "detail": "12-disenhio_clases.Producto",
+        "documentation": {}
+    },
+    {
+        "label": "producto1",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "producto1 = Producto(\"Camisa\", 150.00)\nproducto2 = Producto(\"Pantalón\", 350.00)\nproducto3 = Producto(\"Calcetines\", 50.00)\nproducto4 = Producto(\"Brusa\", 250.00)\nprint(producto1)\nprint(producto2)\nproductos1 = [producto1, producto2]\nproductos2 = [producto3, producto4]\nproductos3 = [producto1, producto3]\norden1 = Orden(productos1)",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "producto2",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "producto2 = Producto(\"Pantalón\", 350.00)\nproducto3 = Producto(\"Calcetines\", 50.00)\nproducto4 = Producto(\"Brusa\", 250.00)\nprint(producto1)\nprint(producto2)\nproductos1 = [producto1, producto2]\nproductos2 = [producto3, producto4]\nproductos3 = [producto1, producto3]\norden1 = Orden(productos1)\norden1.agregar_producto(producto3)",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "producto3",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "producto3 = Producto(\"Calcetines\", 50.00)\nproducto4 = Producto(\"Brusa\", 250.00)\nprint(producto1)\nprint(producto2)\nproductos1 = [producto1, producto2]\nproductos2 = [producto3, producto4]\nproductos3 = [producto1, producto3]\norden1 = Orden(productos1)\norden1.agregar_producto(producto3)\norden1.agregar_producto(producto4)",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "producto4",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "producto4 = Producto(\"Brusa\", 250.00)\nprint(producto1)\nprint(producto2)\nproductos1 = [producto1, producto2]\nproductos2 = [producto3, producto4]\nproductos3 = [producto1, producto3]\norden1 = Orden(productos1)\norden1.agregar_producto(producto3)\norden1.agregar_producto(producto4)\nprint(orden1)",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "productos1",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "productos1 = [producto1, producto2]\nproductos2 = [producto3, producto4]\nproductos3 = [producto1, producto3]\norden1 = Orden(productos1)\norden1.agregar_producto(producto3)\norden1.agregar_producto(producto4)\nprint(orden1)\nprint(f\"Total de la orden 1: {orden1.calcular_total()}\")\norden2 = Orden(productos3)\nprint(orden2)",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "productos2",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "productos2 = [producto3, producto4]\nproductos3 = [producto1, producto3]\norden1 = Orden(productos1)\norden1.agregar_producto(producto3)\norden1.agregar_producto(producto4)\nprint(orden1)\nprint(f\"Total de la orden 1: {orden1.calcular_total()}\")\norden2 = Orden(productos3)\nprint(orden2)\nprint(f\"Total de la orden 2: {orden2.calcular_total()}\")",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "productos3",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "productos3 = [producto1, producto3]\norden1 = Orden(productos1)\norden1.agregar_producto(producto3)\norden1.agregar_producto(producto4)\nprint(orden1)\nprint(f\"Total de la orden 1: {orden1.calcular_total()}\")\norden2 = Orden(productos3)\nprint(orden2)\nprint(f\"Total de la orden 2: {orden2.calcular_total()}\")\norden3 = Orden(productos2)",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "orden1",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "orden1 = Orden(productos1)\norden1.agregar_producto(producto3)\norden1.agregar_producto(producto4)\nprint(orden1)\nprint(f\"Total de la orden 1: {orden1.calcular_total()}\")\norden2 = Orden(productos3)\nprint(orden2)\nprint(f\"Total de la orden 2: {orden2.calcular_total()}\")\norden3 = Orden(productos2)\nprint(orden3)",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "orden2",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "orden2 = Orden(productos3)\nprint(orden2)\nprint(f\"Total de la orden 2: {orden2.calcular_total()}\")\norden3 = Orden(productos2)\nprint(orden3)\nprint(f\"Total de la orden 3: {orden3.calcular_total()}\")",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "orden3",
+        "kind": 5,
+        "importPath": "12-disenhio_clases.test_ordenes",
+        "description": "12-disenhio_clases.test_ordenes",
+        "peekOfCode": "orden3 = Orden(productos2)\nprint(orden3)\nprint(f\"Total de la orden 3: {orden3.calcular_total()}\")",
+        "detail": "12-disenhio_clases.test_ordenes",
+        "documentation": {}
+    },
+    {
+        "label": "Persona",
+        "kind": 6,
+        "importPath": "13-sobrecarga_operadores.Persona",
+        "description": "13-sobrecarga_operadores.Persona",
+        "peekOfCode": "class Persona:\n    def __init__(self, nombre, edad):\n        self.nombre = nombre\n        self.edad = edad\n    def __add__(self, other):\n        return f\"{self.nombre} {other.nombre}\"\n    def __sub__(self, other):\n        return self.edad - other.edad\npersona1 = Persona(\"Juan\", 40)\npersona2 = Persona(\"Carlos\", 25)",
+        "detail": "13-sobrecarga_operadores.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona1",
+        "kind": 5,
+        "importPath": "13-sobrecarga_operadores.Persona",
+        "description": "13-sobrecarga_operadores.Persona",
+        "peekOfCode": "persona1 = Persona(\"Juan\", 40)\npersona2 = Persona(\"Carlos\", 25)\nprint(persona1 + persona2)\nprint(persona1 - persona2)",
+        "detail": "13-sobrecarga_operadores.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "persona2",
+        "kind": 5,
+        "importPath": "13-sobrecarga_operadores.Persona",
+        "description": "13-sobrecarga_operadores.Persona",
+        "peekOfCode": "persona2 = Persona(\"Carlos\", 25)\nprint(persona1 + persona2)\nprint(persona1 - persona2)",
+        "detail": "13-sobrecarga_operadores.Persona",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "description": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "peekOfCode": "a = 2\nb = 3\nprint(a + b)\na = \"Hola \"\nb = \"Mundo\"\nprint(a + b)\na = [1, 2, 3]\nb = [6, 7, 8]\nprint(a + b)",
+        "detail": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "description": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "peekOfCode": "b = 3\nprint(a + b)\na = \"Hola \"\nb = \"Mundo\"\nprint(a + b)\na = [1, 2, 3]\nb = [6, 7, 8]\nprint(a + b)",
+        "detail": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "description": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "peekOfCode": "a = \"Hola \"\nb = \"Mundo\"\nprint(a + b)\na = [1, 2, 3]\nb = [6, 7, 8]\nprint(a + b)",
+        "detail": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "description": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "peekOfCode": "b = \"Mundo\"\nprint(a + b)\na = [1, 2, 3]\nb = [6, 7, 8]\nprint(a + b)",
+        "detail": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "description": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "peekOfCode": "a = [1, 2, 3]\nb = [6, 7, 8]\nprint(a + b)",
+        "detail": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "description": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "peekOfCode": "b = [6, 7, 8]\nprint(a + b)",
+        "detail": "13-sobrecarga_operadores.sobrecarga_operadores",
+        "documentation": {}
+    },
+    {
+        "label": "Empleado",
+        "kind": 6,
+        "importPath": "14-polimorfismo.Empleado",
+        "description": "14-polimorfismo.Empleado",
+        "peekOfCode": "class Empleado:\n    def __init__(self, nombre, sueldo):\n        self.nombre = nombre\n        self.sueldo = sueldo\n    def __str__(self):\n        return f\"Empleado: {self.nombre} - Sueldo: {self.sueldo}\"\n    def mostrar_detalles(self):\n        return self.__str__()",
+        "detail": "14-polimorfismo.Empleado",
+        "documentation": {}
+    },
+    {
+        "label": "Gerente",
+        "kind": 6,
+        "importPath": "14-polimorfismo.Gerente",
+        "description": "14-polimorfismo.Gerente",
+        "peekOfCode": "class Gerente(Empleado):\n    def __init__(self, nombre, sueldo, departamento):\n        super().__init__(nombre, sueldo)\n        self.departamento = departamento\n    def __str__(self):\n        return f\"Gerente [Departamento: {self.departamento}] {super().__str__()}\"\nif __name__ == \"__main__\":\n    gerente1 = Gerente(\"José\", 5000, \"Supervición\")\n    gerente2 = Empleado(\"Raúl\", 6500)\n    print(f\"Empleado: {gerente2}\")",
+        "detail": "14-polimorfismo.Gerente",
+        "documentation": {}
+    },
+    {
+        "label": "imprimir_detalles",
+        "kind": 2,
+        "importPath": "14-polimorfismo.test_polimorfismo",
+        "description": "14-polimorfismo.test_polimorfismo",
+        "peekOfCode": "def imprimir_detalles(objeto):\n    # print(objeto)\n    print(type(objeto))\n    print(objeto.mostrar_detalles())\n    # Se valida si el objeto es una instancia de clase\n    # isinstance recibe como argumentos una instancia y una clase y regresar un booleano(True o False)\n    if isinstance(objeto, Gerente):\n        print(objeto.departamento)\nempleado = Empleado(\"Juan\", 5000)\ngerente = Gerente(\"Raúl\", 4500, \"RRHH\")",
+        "detail": "14-polimorfismo.test_polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "empleado",
+        "kind": 5,
+        "importPath": "14-polimorfismo.test_polimorfismo",
+        "description": "14-polimorfismo.test_polimorfismo",
+        "peekOfCode": "empleado = Empleado(\"Juan\", 5000)\ngerente = Gerente(\"Raúl\", 4500, \"RRHH\")\nimprimir_detalles(empleado)\nimprimir_detalles(gerente)",
+        "detail": "14-polimorfismo.test_polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "gerente",
+        "kind": 5,
+        "importPath": "14-polimorfismo.test_polimorfismo",
+        "description": "14-polimorfismo.test_polimorfismo",
+        "peekOfCode": "gerente = Gerente(\"Raúl\", 4500, \"RRHH\")\nimprimir_detalles(empleado)\nimprimir_detalles(gerente)",
+        "detail": "14-polimorfismo.test_polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "Computadora",
+        "kind": 6,
+        "importPath": "15-Laboratorio-PC.Computadora",
+        "description": "15-Laboratorio-PC.Computadora",
+        "peekOfCode": "class Computadora:\n    contador_computadoras = 0\n    def __init__(self, nombre, monitor, teclado, raton):\n        Computadora.contador_computadoras += 1\n        self._id_computadora = Computadora.contador_computadoras\n        self._nombre = nombre\n        self._monitor = monitor\n        self._teclado = teclado\n        self._raton = raton\n    def __str__(self):",
+        "detail": "15-Laboratorio-PC.Computadora",
+        "documentation": {}
+    },
+    {
+        "label": "DispositivoEntrada",
+        "kind": 6,
+        "importPath": "15-Laboratorio-PC.DispositivoEntrada",
+        "description": "15-Laboratorio-PC.DispositivoEntrada",
+        "peekOfCode": "class DispositivoEntrada:\n    def __init__(self, tipo_entrada, marca):\n        self.tipo_entrada = tipo_entrada\n        self.marca = marca\n    def __str__(self):\n        return f\"\\n\\t- Tipo Entrada: {self.tipo_entrada} \\n\\t- Marca: {self.marca}\"\nif __name__ == \"__main__\":\n    dE1 = DispositivoEntrada(\"Mouse\", \"Dell\")\n    print(dE1)",
+        "detail": "15-Laboratorio-PC.DispositivoEntrada",
+        "documentation": {}
+    },
+    {
+        "label": "Monitor",
+        "kind": 6,
+        "importPath": "15-Laboratorio-PC.Monitor",
+        "description": "15-Laboratorio-PC.Monitor",
+        "peekOfCode": "class Monitor:\n    contador_monitores = 0\n    def __init__(self, marca, tamanio):\n        Monitor.contador_monitores += 1\n        self._id_monitor = Monitor.contador_monitores\n        self._marca = marca\n        self._tamanio = tamanio\n    def __str__(self):\n        return f\"\\n\\t- Id Monitor: {self._id_monitor} \\n\\t- Marca: {self._marca} \\n\\t- Tamaño: {self._tamanio}\"\nif __name__ == \"__main__\":",
+        "detail": "15-Laboratorio-PC.Monitor",
+        "documentation": {}
+    },
+    {
+        "label": "Orden",
+        "kind": 6,
+        "importPath": "15-Laboratorio-PC.Orden",
+        "description": "15-Laboratorio-PC.Orden",
+        "peekOfCode": "class Orden:\n    contador_ordenes = 0\n    def __init__(self, computadoras):\n        Orden.contador_ordenes += 1\n        self.__id_orden = Orden.contador_ordenes\n        # Recibe la lista de objetos de tipo Computadora\n        self.__computadoras = computadoras\n    def agregar_computadora(self, computadora):\n        self.__computadoras.append(computadora)\n    def __str__(self):",
+        "detail": "15-Laboratorio-PC.Orden",
+        "documentation": {}
+    },
+    {
+        "label": "Raton",
+        "kind": 6,
+        "importPath": "15-Laboratorio-PC.Raton",
+        "description": "15-Laboratorio-PC.Raton",
+        "peekOfCode": "class Raton(DispositivoEntrada):\n    contador_ratones = 0\n    def __init__(self, _marca, _tipo_entrada):\n        Raton.contador_ratones += 1\n        self._id_raton = Raton.contador_ratones\n        super().__init__(_marca, _tipo_entrada)\n    def __str__(self):\n        return f\"\\n\\t- Id_Ratón: {self._id_raton} \\n\\t- Marca:{self.marca} \\n\\t- Entrada:{self.tipo_entrada}\"\nif __name__ == \"__main__\":\n    raton1 = Raton(\"Mouse\", \"Dell\")",
+        "detail": "15-Laboratorio-PC.Raton",
+        "documentation": {}
+    },
+    {
+        "label": "Teclado",
+        "kind": 6,
+        "importPath": "15-Laboratorio-PC.Teclado",
+        "description": "15-Laboratorio-PC.Teclado",
+        "peekOfCode": "class Teclado(DispositivoEntrada):\n    contador_teclados = 0\n    def __init__(self,marca,tipo_entrada):\n        Teclado.contador_teclados += 1\n        self.id_teclado = Teclado.contador_teclados\n        super().__init__(marca,tipo_entrada)\n    def __str__(self):\n        return f\"{super().__str__()}\\n\\t- Id Teclado: {self.id_teclado}\"\nif __name__ == \"__main__\":\n    teclado1 = Teclado('HP', 'USB')",
+        "detail": "15-Laboratorio-PC.Teclado",
+        "documentation": {}
+    },
+    {
+        "label": "teclado1",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "teclado1 = Teclado('HP', 'USB')\nraton1 = Raton('HP', 'USB')\nmonitor1 = Monitor('HP', 15)\ncomputadora1 = Computadora('HP', monitor1, teclado1, raton1)\nteclado2 = Teclado('Acer', 'Bluetooth')\nraton2 = Raton('Acer', 'Bluetooth')\nmonitor2 = Monitor('Acer', 27)\ncomputadora2 = Computadora('Acer', monitor2, teclado2, raton2)\nteclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "raton1",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "raton1 = Raton('HP', 'USB')\nmonitor1 = Monitor('HP', 15)\ncomputadora1 = Computadora('HP', monitor1, teclado1, raton1)\nteclado2 = Teclado('Acer', 'Bluetooth')\nraton2 = Raton('Acer', 'Bluetooth')\nmonitor2 = Monitor('Acer', 27)\ncomputadora2 = Computadora('Acer', monitor2, teclado2, raton2)\nteclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "monitor1",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "monitor1 = Monitor('HP', 15)\ncomputadora1 = Computadora('HP', monitor1, teclado1, raton1)\nteclado2 = Teclado('Acer', 'Bluetooth')\nraton2 = Raton('Acer', 'Bluetooth')\nmonitor2 = Monitor('Acer', 27)\ncomputadora2 = Computadora('Acer', monitor2, teclado2, raton2)\nteclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "computadora1",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "computadora1 = Computadora('HP', monitor1, teclado1, raton1)\nteclado2 = Teclado('Acer', 'Bluetooth')\nraton2 = Raton('Acer', 'Bluetooth')\nmonitor2 = Monitor('Acer', 27)\ncomputadora2 = Computadora('Acer', monitor2, teclado2, raton2)\nteclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "teclado2",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "teclado2 = Teclado('Acer', 'Bluetooth')\nraton2 = Raton('Acer', 'Bluetooth')\nmonitor2 = Monitor('Acer', 27)\ncomputadora2 = Computadora('Acer', monitor2, teclado2, raton2)\nteclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "raton2",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "raton2 = Raton('Acer', 'Bluetooth')\nmonitor2 = Monitor('Acer', 27)\ncomputadora2 = Computadora('Acer', monitor2, teclado2, raton2)\nteclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)\n# print(orden1)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "monitor2",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "monitor2 = Monitor('Acer', 27)\ncomputadora2 = Computadora('Acer', monitor2, teclado2, raton2)\nteclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)\n# print(orden1)\norden1.agregar_computadora(computadora3)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "computadora2",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "computadora2 = Computadora('Acer', monitor2, teclado2, raton2)\nteclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)\n# print(orden1)\norden1.agregar_computadora(computadora3)\nprint(orden1)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "teclado3",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "teclado3 = Teclado('Gamer', 'Bluetooth')\nraton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)\n# print(orden1)\norden1.agregar_computadora(computadora3)\nprint(orden1)\ncomputadoras2 = [computadora2, computadora3]",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "raton3",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "raton3 = Raton('Gamer', 'Bluetooth')\nmonitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)\n# print(orden1)\norden1.agregar_computadora(computadora3)\nprint(orden1)\ncomputadoras2 = [computadora2, computadora3]\norden2 = Orden(computadoras2)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "monitor3",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "monitor3 = Monitor('Gamer', '34')\ncomputadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)\n# print(orden1)\norden1.agregar_computadora(computadora3)\nprint(orden1)\ncomputadoras2 = [computadora2, computadora3]\norden2 = Orden(computadoras2)\nprint(orden2)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "computadora3",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "computadora3 = Computadora('Gamer', monitor3, teclado3, raton3)\ncomputadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)\n# print(orden1)\norden1.agregar_computadora(computadora3)\nprint(orden1)\ncomputadoras2 = [computadora2, computadora3]\norden2 = Orden(computadoras2)\nprint(orden2)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "computadoras1",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "computadoras1 = [computadora1, computadora2]\norden1 = Orden(computadoras1)\n# print(orden1)\norden1.agregar_computadora(computadora3)\nprint(orden1)\ncomputadoras2 = [computadora2, computadora3]\norden2 = Orden(computadoras2)\nprint(orden2)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "orden1",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "orden1 = Orden(computadoras1)\n# print(orden1)\norden1.agregar_computadora(computadora3)\nprint(orden1)\ncomputadoras2 = [computadora2, computadora3]\norden2 = Orden(computadoras2)\nprint(orden2)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "computadoras2",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "computadoras2 = [computadora2, computadora3]\norden2 = Orden(computadoras2)\nprint(orden2)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "orden2",
+        "kind": 5,
+        "importPath": "15-Laboratorio-PC.test_mundoPC",
+        "description": "15-Laboratorio-PC.test_mundoPC",
+        "peekOfCode": "orden2 = Orden(computadoras2)\nprint(orden2)",
+        "detail": "15-Laboratorio-PC.test_mundoPC",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "16-manejo-excepciones.16-1-manejo-excepciones",
+        "description": "16-manejo-excepciones.16-1-manejo-excepciones",
+        "peekOfCode": "resultado = None\ntry:\n    a = int(input(\"Primer número: \"))\n    b = int(input(\"Segundo número: \"))\n    if a == b:\n        raise NumerosIdenticosException(\"Números identicos\")\n    resultado = a / b\n# La clase de menor jerarquía de excepciones van al inicio de la llamada de las excepciones\nexcept ValueError as ve:\n    print(f\"\\nOcurrió un error: {ve} - {type(ve)}\")",
+        "detail": "16-manejo-excepciones.16-1-manejo-excepciones",
+        "documentation": {}
+    },
+    {
+        "label": "NumerosIdenticosException",
+        "kind": 6,
+        "importPath": "16-manejo-excepciones.NumerosIdenticosException",
+        "description": "16-manejo-excepciones.NumerosIdenticosException",
+        "peekOfCode": "class NumerosIdenticosException(Exception):\n    def __init__(self, mensaje):\n        self.mensaje = mensaje",
+        "detail": "16-manejo-excepciones.NumerosIdenticosException",
+        "documentation": {}
+    },
+    {
+        "label": "ManejoArchivos",
+        "kind": 6,
+        "importPath": "17-manejo-archivos.manejo_archivos",
+        "description": "17-manejo-archivos.manejo_archivos",
+        "peekOfCode": "class ManejoArchivos:\n    def __init__(self, nombre):\n        self.nombre = nombre\n    def __enter__(self):\n        print(\" Obtenemos el recurso \".center(50, \"-\"))\n        self.nombre = open(self.nombre, \"r\", encoding=\"utf8\")\n        return self.nombre\n    def __exit__(self, tipo_excepcion, valor_excepcion, traza_error):\n        print(\" Cerramos el recurso \".center(50, \"-\"))\n        if self.nombre:",
+        "detail": "17-manejo-archivos.manejo_archivos",
+        "documentation": {}
+    },
+    {
+        "label": "Pelicula",
+        "kind": 6,
+        "importPath": "18-Laboratorio_PC2.dominio.Pelicula",
+        "description": "18-Laboratorio_PC2.dominio.Pelicula",
+        "peekOfCode": "class Pelicula:\n    def __init__(self, nombre):\n        self._nombre = nombre\n    def __str__(self):\n        return f\"Pelicula: {self.nombre}\"\n    # Definición de métodos getters y setters\n    @property\n    def nombre(self):\n        return self._nombre\n    @nombre.setter",
+        "detail": "18-Laboratorio_PC2.dominio.Pelicula",
+        "documentation": {}
+    },
+    {
+        "label": "CatalogoPeliculas",
+        "kind": 6,
+        "importPath": "18-Laboratorio_PC2.servicio.CatalogoPeliculas",
+        "description": "18-Laboratorio_PC2.servicio.CatalogoPeliculas",
+        "peekOfCode": "class CatalogoPeliculas:\n    ruta_archivo = \"c:\\\\Users\\\\cesar\\\\Desktop\\\\python_curso\\\\00-recursos\\\\peliculas.txt\"\n    @classmethod\n    def agregar_pelicula(cls, pelicula):\n        with open(cls.ruta_archivo, \"a\", encoding=\"utf8\") as archivo:\n            archivo.write(f\"{pelicula.nombre}\\n\")\n    @classmethod\n    def listar_peliculas(cls):\n        with open(cls.ruta_archivo, \"r\", encoding=\"utf8\") as archivo:\n            print(\"Catalogo de Peliculas\".center(50, \"-\"))",
+        "detail": "18-Laboratorio_PC2.servicio.CatalogoPeliculas",
+        "documentation": {}
+    },
+    {
+        "label": "opcion",
+        "kind": 5,
+        "importPath": "18-Laboratorio_PC2.test_catalogo_peliculas",
+        "description": "18-Laboratorio_PC2.test_catalogo_peliculas",
+        "peekOfCode": "opcion = None\nwhile opcion != 4:\n    try:\n        print(\"\\nOpciones: \")\n        print(\"1. Agregar Peliculas\")\n        print(\"2. Listar Peliculas\")\n        print(\"3. Eliminar catálogo películas\")\n        print(\"4. Salir\")\n        opcion = int(input(\"Escribe tu opcion (1-4): \"))\n        if opcion == 1:",
+        "detail": "18-Laboratorio_PC2.test_catalogo_peliculas",
         "documentation": {}
     }
 ]
