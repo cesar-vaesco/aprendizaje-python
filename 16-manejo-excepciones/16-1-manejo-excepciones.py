@@ -15,6 +15,12 @@ except TypeError as te:
     print(f"\nOcurrió un error: {te} - {type(te)}")
 except Exception as e:
     print(f"\nOcurrió un error: {e} - {type(e)}")
+else:
+    print(
+        "\nNo se arrojo ninguna excepción - Bloque else se ejecuta cuando no ocurre una excepción"
+    )
+finally:
+    print("\nEjecución del bloque finally - siempre se ejecuta")
 
 print(f"\nResultado: {resultado}")
 print("Continuamos...\n")
