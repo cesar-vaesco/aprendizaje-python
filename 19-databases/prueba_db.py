@@ -17,9 +17,10 @@ try:
     with conexion:
         # Se crea un cursor para poder  usar sentencias sql
         with conexion.cursor() as cursor:
-            sentencia = 'SELECT * FROM persona'
-            cursor.execute(sentencia)
-            registros = cursor.fetchall()
+            sentencia = 'SELECT * FROM persona WHERE id_persona = %s'
+            id_persona = input("Proporciona el valor id_persona:  ")
+            cursor.execute(sentencia,(id_persona,))
+            registros = cursor.fetchone()
 
             print(f"Registros: \n{registros}")
 except Exception as e:
