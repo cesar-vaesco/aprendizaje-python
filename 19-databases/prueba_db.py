@@ -17,12 +17,16 @@ try:
     with conexion:
         # Se crea un cursor para poder  usar sentencias sql
         with conexion.cursor() as cursor:
-            sentencia = 'SELECT * FROM persona WHERE id_persona = %s'
-            id_persona = input("Proporciona el valor id_persona:  ")
-            cursor.execute(sentencia,(id_persona,))
-            registros = cursor.fetchone()
-
-            print(f"Registros: \n{registros}")
+            sentencia = 'SELECT * FROM persona WHERE id_persona IN %s'
+            # llaves_primarias = ((1, 2, 3, 4),)
+            entrada = input("Proporciona los id\'s a buscar (sepadados por comas)}:  ")
+            # la entrada se convierte en una tupla de tuplas
+            # El método split quita las comas de la entrada (satos proporcionados por el usuario)
+            llaves_primarias = (tuple(entrada.split(',')),)
+            cursor.execute(sentencia, llaves_primarias)
+            registros = cursor.fetchall()
+            for registro in registros:
+                print(registro)
 except Exception as e:
     print(f"Ocurrio un error: {e}")
 finally:
