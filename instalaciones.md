@@ -6,3 +6,6 @@ Pip en python es un sistema de gestión de paquetes utilizado para instalar y ad
 
 - Librería de posgres
     - pip install pyscopg2
+    * En caso de que no reconozca la instalación de pyscopg2
+        entonces realizar la instalación de pyscopg2 con el siguiente comando:
+        - pip install psycopg2-binary 
