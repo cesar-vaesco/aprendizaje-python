@@ -24,9 +24,10 @@ try:
 
             print("Impresión de cada fila según el valor de las columnas")
             for row in registros_persona:
-                print("Nombre = ", row[0], )
-                print("Apellido = ", row[1])
-                print("Correo  = ", row[2], "\n")
+                print("Id = ", row[0], )
+                print("Nombre = ", row[1], )
+                print("Apellido = ", row[2])
+                print("Correo  = ", row[3], "\n")
 except Exception as e:
     print(f"Ocurrio un error: {e}")
 finally:

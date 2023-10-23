@@ -21,7 +21,7 @@ try:
             sentencia = 'SELECT * FROM persona'
             # la entrada se convierte en una tupla de tuplas
             cursor.execute(sentencia)
-            registro = cursor. fetchone()
+            registro = cursor.fetchone()
             
             print(registro)
 except Exception as e:
