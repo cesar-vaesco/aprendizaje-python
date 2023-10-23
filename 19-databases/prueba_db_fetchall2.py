@@ -17,12 +17,12 @@ print(f"Datos de conexión: {conexion}\n")
 try:
     with conexion:
         with conexion.cursor() as cursor:
-            sentencia = 'SELECT * FROM persona'
+            sentencia = 'SELECT * FROM persona ORDER BY id_persona'
             cursor.execute(sentencia)
-            print("Selecionamos las filas de la tabla persona usando cursor.fetchall")
+            print("Selecionamos las filas de la tabla persona usando cursor.fetchall\n")
             registros_persona = cursor.fetchall()
 
-            print("Impresión de cada fila según el valor de las columnas")
+            print("Impresión de cada fila según el valor de las columnas\n")
             for row in registros_persona:
                 print("Id = ", row[0], )
                 print("Nombre = ", row[1], )
