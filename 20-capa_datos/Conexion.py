@@ -19,6 +19,7 @@ class Conexion:
                                             user = cls._USERNAME,
                                             password = cls._PASSWORD,
                                             port = cls._DB_PORT,
+                                            database=cls._DATABASE
                                             )
                 log.debug(f'Conexión exitosa:{cls._conexion}')
                 return cls._conexion
@@ -34,6 +35,7 @@ class Conexion:
             try:
                 cls._cursor = cls.obtenerConexion().cursor()
                 log.info(f"Se abrio correctamente el cursor {cls._cursor}")
+                return cls._cursor
             except Exception as e:
                 log.error(f"Ocurrio una excepcion al obtener el cursor: {e}")
                 sys.exit()    
