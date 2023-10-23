@@ -13,28 +13,22 @@ conexion = db.connect(
 
 print(f"Datos de conexión: {conexion}\n")
 
-
+# with realiza commit de forma automática la realización de la transacción
 try:
-#    --> Inicia transacción
-    conexion.autocommit = False
-    
-#     --> transacciones a ejecutar
-    cursor = conexion.cursor()
-    sentencia = 'INSERT INTO persona (nombre, apellido, email) values (%s,%s,%s)'
-    valores = ('Toño','Perez', 'tope@correo.com')
-    cursor.execute(sentencia, valores)
-    
-    sentencia = 'UPDATE persona SET nombre = %s, apellido = %s, email = %s WHERE id_persona = %s'
-    valores= ('Jacobo','Mora', 'jamo@correo.com', 17)
-    cursor.execute(sentencia, valores)
-    
-# --> Finalización de la transacción
-    conexion.commit()
-    print("Termina la transacción, se hizo commit...")
-    
+    with conexion:
+        with conexion.cursor() as cursor:
+            sentencia = 'INSERT INTO persona (nombre, apellido, email) values (%s,%s,%s)'
+            valores = ('Selina','Gómez', 'sego@correo.com')
+            cursor.execute(sentencia, valores)
+            
+            sentencia = 'UPDATE persona SET nombre = %s, apellido = %s, email = %s WHERE id_persona = %s'
+            valores= ('Sergio','Molina', 'semo@correo.com', 5)
+            cursor.execute(sentencia, valores)
 except Exception as e:
     conexion.rollback()
     print(f"Ocurrio un error, se hizo rollback de la transacción: {e}")
 finally:
     print("Cerrando el cursor....")
     cursor.close()
+
+print("Termina la transacción, se hizo commit...")
