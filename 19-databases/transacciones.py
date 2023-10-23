@@ -15,17 +15,22 @@ print(f"Datos de conexión: {conexion}\n")
 
 
 try:
-    # conexion.autocommit = False es un valor por default, 
-    # sí se cambiara el valor a True, es un amala practica
-    # ya que los errores se subirian a la base de datos
+#    --> Inicia transacción
     conexion.autocommit = False
+    
+#     --> transacciones a ejecutar
     cursor = conexion.cursor()
     sentencia = 'INSERT INTO persona (nombre, apellido, email) values (%s,%s,%s)'
-    valores = ('Mario','Morales', 'mmora@correo.com')
+    valores = ('Toño','Perez', 'tope@correo.com')
     cursor.execute(sentencia, valores)
-    # Se esta confirmando la ejecución de la transacción
+    
+    sentencia = 'UPDATE persona SET nombre = %s, apellido = %s, email = %s WHERE id_persona = %s'
+    valores= ('Jacobo','Mora', 'jamo@correo.com', 17)
+    cursor.execute(sentencia, valores)
+    
+# --> Finalización de la transacción
     conexion.commit()
-    print("Termina la transacción...")
+    print("Termina la transacción, se hizo commit...")
     
 except Exception as e:
     conexion.rollback()
