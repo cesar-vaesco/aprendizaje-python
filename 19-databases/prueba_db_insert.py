@@ -12,6 +12,27 @@ conexion = psycopg2.connect(
 
 # print(conexion)
 
+
+try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            # Se crea sentencía sql
+            sentencia = 'INSERT INTO persona(nombre, apellido, email) VALUES (%s, %s, %s)'
+            #  Se crea una tupla con los valores que se van a pasar a la sentencia
+            valores = ('Carlos', 'Lara', 'clara@correo.com')
+            # Se ejecuta el cursor pasando la sentencia y los valores para insertar el registro
+            cursor.execute(sentencia, valores)
+            # Se rescata en una variable los registros insertados
+            registros_insertados = cursor.rowcount
+            print(f"Registros insertados: {registros_insertados}")
+            
+except Exception as e:
+    print(f"Ocurrio un error: {e}")
+finally:
+    print(f"\nCerrando conexion....\n")
+    conexion.close()
+
+"""
 try:
 
     with conexion:
@@ -32,3 +53,4 @@ except Exception as e:
 finally:
     print(f"\nCerrando conexion....\n")
     conexion.close()
+"""
