@@ -63,4 +63,3 @@ if __name__ == "__main__":
     # Simular la eliminación de un registro
     persona3 = Persona(id_persona = 1)
     log.debug(persona3)
-    

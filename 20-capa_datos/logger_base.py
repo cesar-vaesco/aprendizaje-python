@@ -13,11 +13,11 @@ log.basicConfig(level=log.DEBUG,
 
 
 if __name__ == '__main__':
-    log.debug('Mensaje a nivel debug')
-    log.info('Mensaje a nivel info')
-    log.warning('Mensaje a nivel warning')
-    log.error('Mensaje a nivel error')
-    log.critical('Mensaje a nivel critico')
+    log.debug('\nMensaje a nivel debug')
+    log.info('\nMensaje a nivel info')
+    log.warning('\nMensaje a nivel warning')
+    log.error('\nMensaje a nivel error')
+    log.critical('\nMensaje a nivel critico')
     
     
     

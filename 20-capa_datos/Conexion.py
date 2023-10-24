@@ -21,29 +21,29 @@ class Conexion:
                                             port = cls._DB_PORT,
                                             database=cls._DATABASE
                                             )
-                log.debug(f'Conexión exitosa:{cls._conexion}')
+                log.debug(f'\nConexión exitosa:{cls._conexion}')
                 return cls._conexion
             except Exception as e:
-                log.error(f"Ocurrio una exception al obtener la conexión: {e}")
+                log.error(f"\nOcurrio una exception al obtener la conexión: {e}")
                 sys.exit()
-        else: 
+        else:
             return cls._conexion
 
     @classmethod
     def obtenerCursor(cls):
-        if cls._cursor is None:
+        if cls._cursor == None or cls._cursor.closed:
             try:
                 cls._cursor = cls.obtenerConexion().cursor()
-                log.info(f"Se abrio correctamente el cursor {cls._cursor}")
+                log.info(f"\nSe abrio correctamente el cursor {cls._cursor}")
                 return cls._cursor
             except Exception as e:
-                log.error(f"Ocurrio una excepcion al obtener el cursor: {e}")
-                sys.exit()    
+                log.error(f"\nOcurrio una excepcion al obtener el cursor: {e}")
+                sys.exit()
         else:
-            return cls._cursor    
+            return cls._cursor
         
         
         
 if __name__ == "__main__":
-    Conexion.obtenerConexion()    
-    Conexion.obtenerCursor()    
+    Conexion.obtenerConexion()
+    Conexion.obtenerCursor()
