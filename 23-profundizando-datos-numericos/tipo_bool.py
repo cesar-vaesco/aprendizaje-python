@@ -48,3 +48,68 @@ print(f"Valor: {valor}, resultado: {resultado}")
 valor = {"nombre":"César", "apellido": "Escobar"}
 resultado = bool(valor)
 print(f"Valor: {valor}, resultado: {resultado}")
+
+print()
+print(" Validaciones con bool ".center(80,"-"))
+
+valor = "valor"
+
+if bool('') :
+    print('Regreso verdadero')
+else:
+    print("Regreso falso")  
+
+if '' :
+    print('Regreso verdadero')
+else:
+    print("Regreso falso")   
+
+if bool('Hola') :
+    print('Regreso verdadero')
+else:
+    print("Regreso falso") 
+
+if 'Hola' :
+    print('Regreso verdadero')
+else:
+    print("Regreso falso")  
+
+if 0:
+    print('Regreso verdadero')
+else:
+    print("Regreso falso") 
+
+if 5:
+    print('Regreso verdadero')
+else:
+    print("Regreso falso") 
+
+if valor:
+    print('Regreso verdadero')
+else:
+    print("Regreso falso") 
+
+if bool(valor):
+    print('Regreso verdadero')
+else:
+    print("Regreso falso")    
+
+contador = 0
+while valor:
+    print("Ejecución ciclo while")
+    contador = contador + 1
+    if contador == 5:
+        break
+else:        
+    print("fin ciclo while")
+
+
+valor = ""
+contador = 0
+while valor:
+    print("Ejecución ciclo while")
+    contador = contador + 1
+    if contador == 5:
+        break
+else:        
+    print("fin ciclo while")    
