@@ -41,23 +41,41 @@ Comentarios varías líneas
 
 # help(str.join)
 
-tupla_str = ("Hola", "Mundo", "universidad", "Phyton")
-mensaje = " ".join(tupla_str)
-print(mensaje)
+# tupla_str = ("Hola", "Mundo", "universidad", "Phyton")
+# mensaje = " ".join(tupla_str)
+# print(mensaje)
 
-lista_curso = ["Java", "Python", "Angular", "Spring"]
-mensaje = ", ".join(lista_curso)
-print(mensaje)
+# lista_curso = ["Java", "Python", "Angular", "Spring"]
+# mensaje = ", ".join(lista_curso)
+# print(mensaje)
 
-cadena = "HolaMundo"
-mensaje = ".".join(cadena)
-print(mensaje)
+# cadena = "HolaMundo"
+# mensaje = ".".join(cadena)
+# print(mensaje)
 
 
-diccionario = {"nombre": "César", "apellido": "Varela", "Edad": "43"}
-llaves = "-".join(diccionario.keys())
-valores = " ".join(diccionario.values())
-print(f"Llaves: {llaves}")
-print(f"Valores: {valores}")
-print(type(llaves))
-print(type(valores))
+# diccionario = {"nombre": "César", "apellido": "Varela", "Edad": "43"}
+# llaves = "-".join(diccionario.keys())
+# valores = " ".join(diccionario.values())
+# print(f"Llaves: {llaves}")
+# print(f"Valores: {valores}")
+# print(type(llaves))
+# print(type(valores))
+
+# help(str.split)
+
+cursos = "Java Python JavaScript Angular Spring Excel"
+lista_cursos = cursos.split()
+print(lista_cursos)
+
+print(type(lista_cursos))
+
+cursor_separados_coma = "Java, Python, JavaScript, Angular, Spring, Excel"
+lista_cursos = cursor_separados_coma.split(", ")
+print(lista_cursos)
+print(len(lista_cursos))
+
+
+lista_cursos = cursor_separados_coma.split(", ", maxsplit=3)
+print(lista_cursos)
+print(len(lista_cursos))
