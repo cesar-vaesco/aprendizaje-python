@@ -25,17 +25,39 @@ Comentarios varías líneas
 # print(MiClase.mi_metodo)
 # print(type(MiClase.mi_metodo))
 
-help(str.capitalize)
+# help(str.capitalize)
 
-mensaje1 = "hola mundo"
-# No muta el valor de la variable mensaje1
-mensaje2 = mensaje1.capitalize()
+# mensaje1 = "hola mundo"
+# # No muta el valor de la variable mensaje1
+# mensaje2 = mensaje1.capitalize()
 
-print(f"mensaje1: {mensaje1}, id: {hex(id(mensaje1))}")
-print(f"mensaje2: {mensaje2}, id: {hex(id(mensaje2))}")
+# print(f"mensaje1: {mensaje1}, id: {hex(id(mensaje1))}")
+# print(f"mensaje2: {mensaje2}, id: {hex(id(mensaje2))}")
 
-# se modifica la variable
-mensaje1 = "adios"
-print(f"mensaje1: {mensaje1}, id: {hex(id(mensaje1))}")
+# # se modifica la variable
+# mensaje1 = "adios"
+# print(f"mensaje1: {mensaje1}, id: {hex(id(mensaje1))}")
 
 
+# help(str.join)
+
+tupla_str = ("Hola", "Mundo", "universidad", "Phyton")
+mensaje = " ".join(tupla_str)
+print(mensaje)
+
+lista_curso = ["Java", "Python", "Angular", "Spring"]
+mensaje = ", ".join(lista_curso)
+print(mensaje)
+
+cadena = "HolaMundo"
+mensaje = ".".join(cadena)
+print(mensaje)
+
+
+diccionario = {"nombre": "César", "apellido": "Varela", "Edad": "43"}
+llaves = "-".join(diccionario.keys())
+valores = " ".join(diccionario.values())
+print(f"Llaves: {llaves}")
+print(f"Valores: {valores}")
+print(type(llaves))
+print(type(valores))
