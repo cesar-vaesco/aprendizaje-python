@@ -17,4 +17,3 @@ print(f"Resultado: {resultado}")
 # Multiplicación de listas
 resultado = 10 * [0]
 print(f"Resultado: {resultado}, largo: {len(resultado)}")
-
