@@ -33,3 +33,16 @@ print(mensaje)
 # Se puede modificar el índice, se toma el valor posicional de los valores en la función format
 mensaje = "Sueldo {2} Edad {1} Nombre {0}".format(nombre, edad, sueldo)
 print(mensaje)
+
+# Se le da un alias a un parametro
+mensaje = "Nombre {n} Edad {e} Sueldo {s:.2f}".format(n=nombre, e=edad, s=sueldo)
+print(mensaje)
+
+mensaje = "Nombre {nombre} Edad {edad} Sueldo {sueldo:.2f}".format(nombre=nombre, edad=edad, sueldo=sueldo)
+print(mensaje)
+
+# Se hace uso de un diccionario para poder pasar valores a la cadena de strings
+diccionario = {"nombre": "Martin", "edad": 28, "sueldo": 55.0450}
+mensaje = "Nombre {persona[nombre]} Edad {persona[edad]} Sueldo {persona[sueldo]}".format(persona=diccionario)
+print( mensaje )
+
