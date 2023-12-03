@@ -18,7 +18,6 @@ edad = 28
 # # Se pasa la tupla hasta la delcaración de la variable
 # mensaje_con_formato = "Hola %s %s. Tu sueldo es de %.5f"
 # print(mensaje_con_formato % persona)
-"""
 
 nombre = "Cesario"
 edad = 28
@@ -46,3 +45,17 @@ diccionario = {"nombre": "Martin", "edad": 28, "sueldo": 55.0450}
 mensaje = "Nombre {persona[nombre]} Edad {persona[edad]} Sueldo {persona[sueldo]}".format(persona=diccionario)
 print( mensaje )
 
+"""
+nombre = "Cesario"
+edad = 28
+sueldo = 55.0450
+
+mensaje = f"Nombre {nombre} Edad {edad} Sueldo {sueldo:.2f}"
+
+print(mensaje)
+
+
+#  Método print
+
+
+print(nombre, edad, sueldo, sep=", ")
