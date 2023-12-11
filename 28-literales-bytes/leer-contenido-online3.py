@@ -34,3 +34,11 @@ print("Inicia con: ", contenido.startswith("En GlobalMentoring.com.mx"))
 
 # Endswith
 print("Termina con: ", contenido.endswith("GlobalMentoring.com.mx"))
+
+mensaje = "Hola mundo"
+
+print(mensaje.islower())
+print(mensaje.lower().islower())
+
+print(mensaje.isupper())
+print(mensaje.upper().isupper())
