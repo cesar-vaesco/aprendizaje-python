@@ -67,5 +67,24 @@ nombres.clear()
 print("- Elementos de lista: ", nombres)
 
 print("Eliminar la asignación en memoria de la lista")
-del nombres
-print(nombres)
+# del nombres
+# print(nombres)
+
+
+nombres1 = ["César", "Artemia", "Susana"]
+nombres2 = "Jorge María José".split(" ")
+
+print()
+print(" Suma de listas ".center(50, "*"))
+
+print(f"Lista1: {nombres1}")
+print(f"Lista2: {nombres2}\n")
+
+
+print(f"Sumar listas: {nombres1 + nombres2}\n")
+
+print(" Extender una lista con otra lista ".center(50, "*"))
+
+nombres1.extend(nombres2)
+
+print(f"Extender la lista uno con la lista 2: {nombres1}\n")
