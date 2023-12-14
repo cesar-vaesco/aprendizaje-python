@@ -173,3 +173,35 @@ print(f"Matriz original: {matriz}")
 print("Agregando un nuevo elemento a la fila 0")
 matriz[0].append(180)
 print(f"Matriz modificada con el nuevo elemento: \n\t\t\t\t\t{matriz}")
+
+print(" \n", "Ordenar lista de listas")
+
+lista_listas = [[5, 8, 6, 45, 12], [56, 89, 15], [45, 12, 89, 65, 20, 35, 65]]
+print(
+    "Ordenamiento de la matriz segun el tipo de elementos que tengan los renglones (lista_listas.sort(key=len)) "
+)
+lista_listas.sort(key=len)
+print(f"Ordenar lista: {lista_listas}")
+
+#  built-in --> función parte del lenguaje de python
+
+# help(sorted)
+nombres1 = ["César", "Vane", "Gloria", "Vero", "Aurelio"]
+
+print(f"Lista original de nombres: {nombres1}")
+nombres1 = sorted(nombres1)
+print(f"Ordenamiento alfabetico de la lista de forma ascendente: {nombres1}")
+
+nombres1 = sorted(nombres1, reverse=True)
+print(f"Ordenamiento alfabetico de la lista de forma descendente: {nombres1}")
+
+print("Ordenar por la cantidad de los caractres (largo)")
+nombres1 = sorted(nombres1, key=len)
+
+print(f"Ordenar por la cantidad de los caracteres (largo): {nombres1}")
+
+print("\n built-in revese")
+# reversed se aplica directamente, en la función sorted se pasaba como parametro
+nombres1 = reversed(nombres1)
+print(nombres1)
+print(list(nombres1))
