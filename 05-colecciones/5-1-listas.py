@@ -145,3 +145,31 @@ print(f"Mismo contenido: {lista_multiplicacion[0] == lista_multiplicacion[1]}")
 # Se modifica todos los elementos de la lista
 lista_multiplicacion[2].append(10)
 print(lista_multiplicacion)
+
+# Matrices en python --> lista de listas
+print("\n", " Matrices en python --> lista de listas ".center(100, "*"))
+matriz = [[10, 20], [30, 40, 50], [60, 70, 80, 90]]
+print(f"Matriz original: {matriz}")
+print(
+    f"Elementos de la primera lista contenida en la matriz: {matriz[0][0]} - {matriz[0][1]}"
+)
+print(
+    f"Elementos de la segunda lista contenida en la matriz: {matriz[1][0]} - {matriz[1][1]} - {matriz[1][2]}"
+)
+print(
+    f"Elementos de la tercera lista contenida en la matriz: {matriz[2][0]} - {matriz[2][1]} - {matriz[2][2]} - {matriz[2][3]}"
+)
+
+print(f"Renglón 0, columna 0: {matriz[0][0]}")
+print(f"Renglón 1, columna 2: {matriz[1][2]}")
+print(f"Renglón 2, columna 3: {matriz[2][3]}")
+
+matriz[0][0] = 105
+
+print(f"Modificación - Renglón 0, columna 0: {matriz[0][0]}")
+
+print(f"Matriz original: {matriz}")
+
+print("Agregando un nuevo elemento a la fila 0")
+matriz[0].append(180)
+print(f"Matriz modificada con el nuevo elemento: \n\t\t\t\t\t{matriz}")
