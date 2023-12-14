@@ -108,3 +108,28 @@ print(f"Lista ordenada: {numeros1}")
 # Ordenar los elementos de una lista de forma descendente
 numeros1.sort(reverse=True)
 print(f"Lista ordenada de forma descendente: {numeros1}")
+
+# Obtener ek valor minimo y maximo de una lista
+print(f"Valor minimo: {min(numeros1)}")
+print(f"Valor máximo: {max(numeros1)}")
+
+# Copiar los elementos de una lista
+numeros2 = numeros1.copy()
+print(f"Lista original: {numeros1}")
+print(f"Lista copia: {numeros2}")
+
+print(f"Misma referencia? {numeros1 is numeros2}")
+print(f"Mismo contenido? {numeros1 == numeros2}")
+
+# Podemos usar el constructor de la lista
+print(" Podemos usar el constructor de la lista --> numeros2 = list(numeros1) ")
+numeros2 = list(numeros1)
+print(f"Misma referencia? {numeros1 is numeros2}")
+print(f"Mismo contenido? {numeros1 == numeros2}")
+
+print("slicing -->>> copiar elementos de una lista en por otra lista")
+numeros2 = numeros1[:]
+print("slicing --> numeros2 = numeros1[:]")
+
+print(f"Misma referencia? {numeros1 is numeros2}")
+print(f"Mismo contenido? {numeros1 == numeros2}")
