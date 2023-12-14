@@ -133,3 +133,15 @@ print("slicing --> numeros2 = numeros1[:]")
 
 print(f"Misma referencia? {numeros1 is numeros2}")
 print(f"Mismo contenido? {numeros1 == numeros2}")
+
+# Multiplicacion de listas
+
+lista_multiplicacion = 5 * [[2, 5]]
+
+print(lista_multiplicacion)
+print(f"Misma referencia: {lista_multiplicacion[0] is lista_multiplicacion[1]}")
+print(f"Mismo contenido: {lista_multiplicacion[0] == lista_multiplicacion[1]}")
+
+# Se modifica todos los elementos de la lista
+lista_multiplicacion[2].append(10)
+print(lista_multiplicacion)
