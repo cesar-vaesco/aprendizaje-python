@@ -88,3 +88,23 @@ print(" Extender una lista con otra lista ".center(50, "*"))
 nombres1.extend(nombres2)
 
 print(f"Extender la lista uno con la lista 2: {nombres1}\n")
+
+#  Lista de números
+numeros1 = [1, 40, 3, 4, 5, 20, 7, 4]
+
+# Obtener el primer indice del primer elemento encontrado en la lista
+# help(list.index)
+print(f"Lista original: {numeros1}")
+print(f"Indice 4: {numeros1.index(4)}")
+
+# Invertir los numeros de una lista
+numeros1.reverse()
+print(f"Lista invertida: {numeros1}")
+
+# Ordenar los elementos de una lista ascendente
+numeros1.sort()
+print(f"Lista ordenada: {numeros1}")
+
+# Ordenar los elementos de una lista de forma descendente
+numeros1.sort(reverse=True)
+print(f"Lista ordenada de forma descendente: {numeros1}")
