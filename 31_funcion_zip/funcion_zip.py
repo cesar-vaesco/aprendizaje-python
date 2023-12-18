@@ -78,3 +78,17 @@ print(
 )
 print(sorted(zip(letras, numeros)))
 print(sorted(zip(numeros, letras)))
+
+
+print("\nCrear un diccionario a partir de dos iterables\n")
+
+llaves = ["nombre", "apellido", "edad"]
+valores = ["Juan", "Peréz", 18]
+diccionario = dict(zip(llaves, valores))
+print(diccionario)
+
+print("\nActualiar un elemento de un diccionario\n")
+llave = ["edad"]
+nueva_edad = [28]
+diccionario.update(zip(llave, nueva_edad))
+print(diccionario)
