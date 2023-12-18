@@ -52,3 +52,11 @@ for numero, letra, identificador, aleatorio in zip(
 
 print("\nCrando una nueva lista mezclando elementos de varios iterables:\n")
 print("\t", nueva_lista)
+
+
+# unzip
+mezcla = [(1, "a"), (2, "b"), (3, "c")]
+numeros, letras = zip(*mezcla)
+
+print("\nSeparación de iterables - unzip: ")
+print(f"\nNúmeros: {numeros} \nLetras: {letras}")
