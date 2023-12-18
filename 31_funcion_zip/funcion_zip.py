@@ -60,3 +60,21 @@ numeros, letras = zip(*mezcla)
 
 print("\nSeparación de iterables - unzip: ")
 print(f"\nNúmeros: {numeros} \nLetras: {letras}")
+
+
+print("\nOrdenamiento utilizando la función zip")
+
+letras = ["c", "d", "a", "e", "b"]
+numeros = [3, 2, 1, 4, 0]
+
+mezcla = zip(letras, numeros)
+
+print(tuple(mezcla))
+
+mezcla = zip(numeros, letras)
+
+print(
+    "\nOrdenamiento segun el primer iterable que se pase por parametro a la función zip"
+)
+print(sorted(zip(letras, numeros)))
+print(sorted(zip(numeros, letras)))
