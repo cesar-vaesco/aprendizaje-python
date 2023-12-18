@@ -44,3 +44,28 @@ print(
     "\tpelo_negro.symmetric_difference(ojos_cafe): ",
     pelo_negro.symmetric_difference(ojos_cafe),
 )
+
+
+print("\nUn set esta contenido en otro -- SUBSET")
+print(f"Primer set: {menores_30}")
+print(f"Segundo set: {pelo_negro}")
+print(
+    "\t\nRevisamos si los elementos del primer set están contenidos en el segundo set: "
+)
+print(menores_30.issubset(pelo_negro))
+
+print("\n", " SUPERSET: un set contiene a otro set ".center(50, "*"))
+print(
+    "Revisar si los elementos del primer set estan contenidos dentro del segundo set: "
+)
+print("Las personas menores de 30 es un super set de las personas de pelo negro")
+print(f"Menores de 30: {menores_30}")
+print(f"Pelo negro: {pelo_negro}")
+print(f"Superset: ? {menores_30.issuperset(pelo_negro)}")
+print("Las personas de pelo negro son un super set de las personas menores de 30? ")
+print(f"Superset: ? {pelo_negro.issuperset(menores_30)}")
+print(
+    "\n",
+    "DISTJOIN --> las personas de pelo negro no tienen pelo rubio ".center(60, "*"),
+)
+print(pelo_negro.isdisjoint(pelo_rubio))
