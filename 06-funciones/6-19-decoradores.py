@@ -18,7 +18,18 @@ def funcion_decorador_a(funcion_a_decorar_b):
     return funcion_decorada_c
 
 
+def funcion_decorador_a_argumentos_variados(funcion_a_decorar_b):
+    def funcion_decorada_c(*args, **kwargs):
+        print("\nAntes de ejecutar la función ")
+        resultado = funcion_a_decorar_b(*args, **kwargs)
+        print("Después de ejecutar la función")
+        return resultado
+
+    return funcion_decorada_c
+
+
 def medir_tiempo_ejecucion_funcion(function):
+    # Argumentos variables
     def wrapper(*args, **kwargs):
         import time
 
@@ -43,5 +54,13 @@ def mensaje_despedida():
     print("Adios desde función despedida")
 
 
+@funcion_decorador_a_argumentos_variados
+def sumar(a, b):
+    return a + b
+
+
 mostrar_mensaje()
 mensaje_despedida()
+
+resultado = sumar(6, 8)
+print(f"Resultado: {resultado}")
