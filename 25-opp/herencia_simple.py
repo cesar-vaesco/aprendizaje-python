@@ -33,6 +33,26 @@ class ListaOrdenada(ListaSimple):
         self.ordenar()
 
 
+# Lista sólo acepta números
+class ListaEnteros(ListaSimple):
+    def __init__(self, elementos=[]) -> None:
+        for elemento in elementos:
+            self._validar(elemento)
+        #  Una validados los elementos los agregamos
+        super().__init__(elementos)
+        self.ordenar()
+
+    def _validar(self, elemento):
+        # Se valida sí el elemento es del tipo entero
+        if not isinstance(elemento, int):
+            raise ValueError(f"No es un valor entero")
+
+    # Se sobreescribe método agregar de la clase padre
+    def agregar(self, elemento):
+        self._validar(elemento)
+        super().agregar(elemento)
+
+
 lista_simple = ListaSimple([5, 3, 6, 8])
 
 print(lista_simple)
@@ -48,3 +68,6 @@ print(lista_ordenada)
 lista_ordenada.agregar(-14)
 print(lista_ordenada)
 print(lista_ordenada.__len__())
+
+lista_enteros = ListaEnteros([5, 6, 9, 12, 48, -12])
+print(lista_enteros)
