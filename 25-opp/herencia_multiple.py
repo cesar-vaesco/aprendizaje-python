@@ -53,11 +53,6 @@ class ListaEnteros(ListaSimple):
         super().agregar(elemento)
 
 
-# Lista de enteros ordenada
-class ListaEnterosOrdenada(ListaEnteros, ListaOrdenada):
-    pass
-
-
 lista = [5, 3, 8, 6]
 lista_simple = ListaSimple(lista)
 
@@ -77,12 +72,3 @@ print(lista_ordenada.__len__())
 
 lista_enteros = ListaEnteros([5, 6, 9, 12, 48, -12])
 print(lista_enteros)
-
-lista_enteros_ordenada = ListaEnterosOrdenada([4, 5, -1, 10, 14, -4])
-print(lista_enteros_ordenada)
-lista_enteros_ordenada.agregar(-20)
-print(lista_enteros_ordenada)
-# Saber las clases padre y su orden
-print(ListaEnterosOrdenada.__bases__)
-# MRO Method Resolution Order
-print(ListaEnterosOrdenada.__mro__)
