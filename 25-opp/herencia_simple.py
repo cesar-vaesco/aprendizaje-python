@@ -86,3 +86,25 @@ print(lista_enteros_ordenada)
 print(ListaEnterosOrdenada.__bases__)
 # MRO Method Resolution Order
 print(ListaEnterosOrdenada.__mro__)
+
+
+print("Es entero?", isinstance(10, int))
+print("Es una cadena?", isinstance("10", str))
+print(
+    "Es lista enteros ordenada?",
+    isinstance(lista_enteros_ordenada, ListaEnterosOrdenada),
+)
+
+print("Es lista enteros? ", isinstance(lista_enteros_ordenada, ListaEnteros))
+print(
+    "Es lista enteros enteros?",
+    isinstance(lista_enteros_ordenada, ListaEnteros),
+)
+print("Es lista ordenada?", isinstance(lista_enteros_ordenada, ListaOrdenada))
+print(
+    "Es de varios tipos: ",
+    isinstance(
+        lista_enteros_ordenada,
+        (ListaEnteros, ListaEnterosOrdenada, ListaOrdenada, ListaSimple, object),
+    ),
+)
