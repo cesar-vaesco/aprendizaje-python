@@ -23,12 +23,14 @@ ventana.iconbitmap("34-tkinter/icono.ico")
 
 
 #  width es la cantidad de caracteres que ocupa la caja
-entrada1 = ttk.Entry(ventana, width=30, justify=tk.CENTER)
+# entrada1 = ttk.Entry(ventana, width=30, justify=tk.CENTER, show="*")
+entrada1 = ttk.Entry(ventana, width=30, justify=tk.CENTER, state=tk.NORMAL)
 entrada1.grid(row=0, column=0)
 #  Insert agrega un texto a nuestra caja de texto
 #  Texto de guía para introducir datos en la caja de texto
 entrada1.insert(0, "Introduce una cadena")
 entrada1.insert(tk.END, ":  ")
+entrada1.config(state="readonly")
 
 center_window(ventana)
 
