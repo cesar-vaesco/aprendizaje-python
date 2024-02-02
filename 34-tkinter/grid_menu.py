@@ -37,8 +37,18 @@ def crear_menu():
     submenu_archivo = Menu(menu_principal, tearoff=False)
     # Agregamos una nueva opción al menu de archivo
     submenu_archivo.add_command(label="Nuevo")
+    # Agregar un separador
+    submenu_archivo.add_separator()
+    # Opción de salir
+    submenu_archivo.add_command(label="Salir")
     # Agregamos el submenu al menu principal
     menu_principal.add_cascade(menu=submenu_archivo, label="Archivo")
+    # Submenú de ayuda
+    submenu_ayuda = Menu(menu_principal, tearoff=0)
+    # Submenu acerca de
+    submenu_ayuda.add_command(label="Acerca de")
+    # Agregar al menú el nuevo submenu
+    menu_principal.add_cascade(menu=submenu_ayuda, label="Ayuda")
     # Mostrar menú en la ventana principal
     ventana.config(menu=menu_principal)
 
