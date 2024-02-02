@@ -3,6 +3,9 @@
 
 import tkinter as Tk
 
+# importamos módulo del trma de tkinter
+from tkinter import ttk
+
 
 def center_window(window):
     window.update_idletasks()
@@ -18,12 +21,28 @@ def center_window(window):
     window.deiconify()
 
 
+def evento_click():
+    boton1.config(text="Botón presionado")
+    print("Ejecución del evento_click ")
+    # Crear un nuevo componente y lo mostramos
+    boton2 = ttk.Button(ventana, text="Nuevo botón")
+    boton2.pack()
+
+
 # Usamos un objeto usando la clase tk
 ventana = Tk.Tk()
 # Modificamos el tamaño de la ventana
 ventana.geometry("600x400")
 # Cambiamos el nombre de la ventana
 ventana.title("Nueva ventana")
+# Configuramos el icono de la aplicación
+ventana.iconbitmap("34-tkinter/icono.ico")
+# Creamos un botón(widget), el objeto padre es la ventana
+boton1 = ttk.Button(ventana, text="Dar click", command=evento_click)
+# Utilizamos el pack layout manager para mostrar el botón de la ventana
+boton1.pack()
+
+
 # ventana.resizable(0, 0)
 # Centrar la ventana.
 center_window(ventana)
