@@ -29,7 +29,9 @@ def evento3():
 
 
 def evento4():
-    boton4.config(text="Botón 4 presionado")
+    boton4.config(
+        text="Botón 4 presionado", fg="white", relief=tk.GROOVE, background="purple"
+    )
 
 
 ventana = tk.Tk()
@@ -54,7 +56,7 @@ boton3 = ttk.Button(ventana, text="Botón 3", command=evento3)
 boton3.grid(row=0, column=1, sticky="NSWE")
 
 # N(arriba),E(derecha),S(abajo),w(izquierda)
-boton4 = ttk.Button(ventana, text="Botón 4", command=evento4)
+boton4 = tk.Button(ventana, text="Botón 4", command=evento4)
 boton4.grid(row=1, column=1, sticky="NSWE")
 
 
