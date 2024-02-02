@@ -30,9 +30,11 @@ ventana.title("Manejo de Grid")
 ventana.iconbitmap("34-tkinter/icono.ico")
 
 boton1 = ttk.Button(ventana, text="Botón 1", command=evento1)
-boton1.grid(row=0, column=0)
+boton1.grid(row=0, column=0, sticky="W")
+
+# N(arriba),E(derecha),S(abajo),w(izquierda)
 boton2 = ttk.Button(ventana, text="Botón 2", command=evento2)
-boton2.grid(row=1, column=4)
+boton2.grid(row=1, column=0, sticky="E")
 
 
 center_window(ventana)
