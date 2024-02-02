@@ -46,18 +46,29 @@ ventana.columnconfigure(0, weight=1)
 ventana.columnconfigure(1, weight=5)
 
 boton1 = ttk.Button(ventana, text="Botón 1", command=evento1)
-boton1.grid(row=0, column=0, sticky="NSWE")
+boton1.grid(
+    row=0,
+    column=0,
+    sticky="NSWE",
+    pady=30,
+    padx=40,
+    ipady=50,
+    ipadx=20,
+    columnspan=2,
+    rowspan=2,
+)
+
 
 # N(arriba),E(derecha),S(abajo),w(izquierda)
 boton2 = ttk.Button(ventana, text="Botón 2", command=evento2)
-boton2.grid(row=1, column=0, sticky="NSWE")
+# boton2.grid(row=1, column=0, sticky="NSWE")
 
 boton3 = ttk.Button(ventana, text="Botón 3", command=evento3)
-boton3.grid(row=0, column=1, sticky="NSWE")
+# boton3.grid(row=0, column=1, sticky="NSWE")
 
 # N(arriba),E(derecha),S(abajo),w(izquierda)
 boton4 = tk.Button(ventana, text="Botón 4", command=evento4)
-boton4.grid(row=1, column=1, sticky="NSWE")
+# boton4.grid(row=1, column=1, sticky="NSWE")
 
 
 center_window(ventana)
