@@ -1,3 +1,4 @@
+import sys
 import tkinter as tk
 from tkinter import Menu, ttk, messagebox
 
@@ -30,23 +31,42 @@ def enviar():
         )
 
 
+def nuevo():
+    messagebox.showinfo("Mensaje informativo: ", "Pulso la opción nuevo")
+
+
+def acerca_de():
+    messagebox.showwarning(
+        "Mensaje informativo: ", "Por el momento no hay apoyo técnico"
+    )
+
+
+def salir():
+    message_salida = "Saliendo de la aplicación..... "
+    messagebox.showerror("Mensaje informatico: ", message_salida)
+    ventana.quit()
+    ventana.destroy()
+    print(message_salida)
+    sys.exit()
+
+
 def crear_menu():
     # Configurar el menú principal
     menu_principal = Menu(ventana)
     # tearoff = False para evitar que se separa el menú de la interfaz
     submenu_archivo = Menu(menu_principal, tearoff=False)
     # Agregamos una nueva opción al menu de archivo
-    submenu_archivo.add_command(label="Nuevo")
+    submenu_archivo.add_command(label="Nuevo", command=nuevo)
     # Agregar un separador
     submenu_archivo.add_separator()
     # Opción de salir
-    submenu_archivo.add_command(label="Salir")
+    submenu_archivo.add_command(label="Salir", command=salir)
     # Agregamos el submenu al menu principal
     menu_principal.add_cascade(menu=submenu_archivo, label="Archivo")
     # Submenú de ayuda
     submenu_ayuda = Menu(menu_principal, tearoff=0)
     # Submenu acerca de
-    submenu_ayuda.add_command(label="Acerca de")
+    submenu_ayuda.add_command(label="Acerca de", command=acerca_de)
     # Agregar al menú el nuevo submenu
     menu_principal.add_cascade(menu=submenu_ayuda, label="Ayuda")
     # Mostrar menú en la ventana principal
